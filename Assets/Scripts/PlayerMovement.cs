@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.SetFloat("Horizontal", movement.x);
         }
+
         animator.SetFloat("Speed", movement.sqrMagnitude);
     }
 
