@@ -17,6 +17,11 @@ public class PlayerMovement : MonoBehaviour
 
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Speed", movement.sqrMagnitude);
+
+        if (movement.x != 0)
+        {
+            animator.SetFloat("IdleHorizontal", movement.x);
+        }
     }
 
     void FixedUpdate()
