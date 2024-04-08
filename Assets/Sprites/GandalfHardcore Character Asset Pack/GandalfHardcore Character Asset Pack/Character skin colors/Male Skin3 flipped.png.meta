@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 075eeabfa30aaaf4481520dd07c7028c
+guid: 44da64fc939185e4c8f415c2cbc379c8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,10 +136,10 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Male Skin2_0
+      name: Male Skin3 flipped_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 400
         y: 384
         width: 80
         height: 64
@@ -150,17 +150,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85ba027943ba97e47897a3a23bcd9a81
-      internalID: -1487890004
+      spriteID: 2d7ef978288c1d340be67d69baab845a
+      internalID: 1405206515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_1
+      name: Male Skin3 flipped_1
       rect:
         serializedVersion: 2
-        x: 80
+        x: 480
         y: 384
         width: 80
         height: 64
@@ -171,17 +171,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aea23352be5cc1547895fd819af1be27
-      internalID: -224882589
+      spriteID: f248496aa4126b9498a408116199b29f
+      internalID: 1016495098
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_2
+      name: Male Skin3 flipped_2
       rect:
         serializedVersion: 2
-        x: 160
+        x: 560
         y: 384
         width: 80
         height: 64
@@ -192,17 +192,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48d217fc426b843449ccdc3becc408df
-      internalID: 1991990586
+      spriteID: 73339b58608cf1b43aaacaf847c3f6be
+      internalID: 810261046
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_3
+      name: Male Skin3 flipped_3
       rect:
         serializedVersion: 2
-        x: 240
+        x: 640
         y: 384
         width: 80
         height: 64
@@ -213,17 +213,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7211181777cff9343b6ce694dd21f481
-      internalID: 1908976446
+      spriteID: 77754a0eba13962499a31e8eca69af54
+      internalID: 416912329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_4
+      name: Male Skin3 flipped_4
       rect:
         serializedVersion: 2
-        x: 320
+        x: 720
         y: 384
         width: 80
         height: 64
@@ -234,56 +234,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c2b847c032c73b4a88ba2c84d34e417
-      internalID: -1746084708
+      spriteID: 3c84b6bb53a3432489aff634c03419c8
+      internalID: 2009227782
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 320
-        width: 80
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 100408f3808b68743ab99bbd40436582
-      internalID: 706908798
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Male Skin2_6
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 320
-        width: 80
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ad75e3dd0ba6680429f165e578f4d0d7
-      internalID: 906323471
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Male Skin2_7
+      name: Male Skin3 flipped_5
       rect:
         serializedVersion: 2
         x: 160
@@ -297,14 +255,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20fc6d725ecfec646b25462564303774
-      internalID: -1882695737
+      spriteID: 7bda836bcf7d08e47889e0e65aa926ec
+      internalID: -2039497991
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_8
+      name: Male Skin3 flipped_6
       rect:
         serializedVersion: 2
         x: 240
@@ -318,14 +276,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b298362d6272aa44a814d5edfa56dda
-      internalID: -1337369364
+      spriteID: 342b545766af0b9438e50e9c84693c69
+      internalID: 1708148606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_9
+      name: Male Skin3 flipped_7
       rect:
         serializedVersion: 2
         x: 320
@@ -339,14 +297,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a598cec172bfa974ab48a1d537cb129c
-      internalID: 275510396
+      spriteID: e32c9e57c0f36f249bb36b85a7c5a8b6
+      internalID: -1067382491
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_10
+      name: Male Skin3 flipped_8
       rect:
         serializedVersion: 2
         x: 400
@@ -360,14 +318,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8348ff04c993e74e9d387528e011aeb
-      internalID: 331858409
+      spriteID: 60f7fcbf29a399146b86866cc42ec815
+      internalID: -151576674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_11
+      name: Male Skin3 flipped_9
       rect:
         serializedVersion: 2
         x: 480
@@ -381,14 +339,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e5354a1961cc0e42a6b045397fd9e4f
-      internalID: 1944081147
+      spriteID: e035c6cb0c279874d89ad50df4bb2861
+      internalID: -494987240
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_12
+      name: Male Skin3 flipped_10
       rect:
         serializedVersion: 2
         x: 560
@@ -402,18 +360,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97b6e66adff547147a4aaab3e239aa4c
-      internalID: 1126466045
+      spriteID: 65e999d470bfbfe4eb9b7f974b46454a
+      internalID: 742141003
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_13
+      name: Male Skin3 flipped_11
       rect:
         serializedVersion: 2
-        x: 0
-        y: 256
+        x: 640
+        y: 320
         width: 80
         height: 64
       alignment: 0
@@ -423,18 +381,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 847551ecf8b92ca4c81c1ccc0fcdac59
-      internalID: -755500037
+      spriteID: 1f963eb6c17e3d14c8d671e07af62762
+      internalID: 1721858442
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_14
+      name: Male Skin3 flipped_12
       rect:
         serializedVersion: 2
-        x: 80
-        y: 256
+        x: 720
+        y: 320
         width: 80
         height: 64
       alignment: 0
@@ -444,14 +402,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b53c022797bd3d143a6754b42512faac
-      internalID: -670469
+      spriteID: 1c65f3bb00607ba498daff10ee56f845
+      internalID: 1121313678
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_15
+      name: Male Skin3 flipped_13
       rect:
         serializedVersion: 2
         x: 160
@@ -465,14 +423,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0bd6b7f0eaae3c34fad2197859b24a0d
-      internalID: -1547073472
+      spriteID: 78535c4a4c3511e4aba5c47ba723f5e1
+      internalID: -7223569
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_16
+      name: Male Skin3 flipped_14
       rect:
         serializedVersion: 2
         x: 240
@@ -486,14 +444,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ed79ce836e7e004493f2e0d349cfec0
-      internalID: -738184095
+      spriteID: 017493a12e1a6cd489a6334835a7a795
+      internalID: 99397305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_17
+      name: Male Skin3 flipped_15
       rect:
         serializedVersion: 2
         x: 320
@@ -507,14 +465,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44d6f58b45a9c4645aeff4e782ece33a
-      internalID: 628894953
+      spriteID: ab5a6ae7901b0d547a8b709bf2c97258
+      internalID: 841932567
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_18
+      name: Male Skin3 flipped_16
       rect:
         serializedVersion: 2
         x: 400
@@ -528,14 +486,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89c26bdb1855515479bc4c37ae690fe0
-      internalID: 1376344736
+      spriteID: fd463b559441a4545802a222fde41975
+      internalID: 1861505844
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_19
+      name: Male Skin3 flipped_17
       rect:
         serializedVersion: 2
         x: 480
@@ -549,14 +507,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eedb7edb3499e39438211a44b585e4e8
-      internalID: 1875582833
+      spriteID: 3ad19a32a243d3b4b851829cb8776572
+      internalID: 671575953
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_20
+      name: Male Skin3 flipped_18
       rect:
         serializedVersion: 2
         x: 560
@@ -570,17 +528,59 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07779e17fd313714dbc454ba32cbed52
-      internalID: 217521189
+      spriteID: 202b1821ed2b77b4caaff39846d90051
+      internalID: 1548016924
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_21
+      name: Male Skin3 flipped_19
       rect:
         serializedVersion: 2
-        x: 0
+        x: 640
+        y: 256
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998ddb55a5631ee4d8a1d12b269cdece
+      internalID: -1904081052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Skin3 flipped_20
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 256
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3956d9d4e953b9b4182024e08992ae68
+      internalID: 335106780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Skin3 flipped_21
+      rect:
+        serializedVersion: 2
+        x: 480
         y: 192
         width: 80
         height: 64
@@ -591,17 +591,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7340d7c33ef1a164089e3d69ab42422b
-      internalID: -1199734830
+      spriteID: ff848648b290c4d419e531c8a49b36ae
+      internalID: -1965915105
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_22
+      name: Male Skin3 flipped_22
       rect:
         serializedVersion: 2
-        x: 80
+        x: 560
         y: 192
         width: 80
         height: 64
@@ -612,17 +612,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf5307358f3d57740ad418be3a54ec10
-      internalID: -84912420
+      spriteID: 46962b4ed218dff47814a55b7076bf02
+      internalID: 1582613885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_23
+      name: Male Skin3 flipped_23
       rect:
         serializedVersion: 2
-        x: 160
+        x: 640
         y: 192
         width: 80
         height: 64
@@ -633,17 +633,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5ba5f625a1d6df41bb71210b8f23ef1
-      internalID: 310825781
+      spriteID: b910ca59bd510cb4c90c56e8ed004b83
+      internalID: 82182870
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_24
+      name: Male Skin3 flipped_24
       rect:
         serializedVersion: 2
-        x: 240
+        x: 720
         y: 192
         width: 80
         height: 64
@@ -654,17 +654,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffc931bf8acb2e645a8ddb0779a2c838
-      internalID: -700112539
+      spriteID: 9b05046b8038d6f47b326cfa276f34b0
+      internalID: 122440020
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_25
+      name: Male Skin3 flipped_25
       rect:
         serializedVersion: 2
-        x: 0
+        x: 480
         y: 128
         width: 80
         height: 64
@@ -675,17 +675,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e928e52672bd9594f8c6e01d308c12de
-      internalID: 1303253561
+      spriteID: 6724f0f5c5a03e04592a186aa5ee27cc
+      internalID: 1077173305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_26
+      name: Male Skin3 flipped_26
       rect:
         serializedVersion: 2
-        x: 80
+        x: 560
         y: 128
         width: 80
         height: 64
@@ -696,17 +696,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b611718619933de45ae0a993f3314bc4
-      internalID: 1572215128
+      spriteID: 6cb3b8c4ed050b14e84de861264f8afb
+      internalID: 1434026724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_27
+      name: Male Skin3 flipped_27
       rect:
         serializedVersion: 2
-        x: 160
+        x: 640
         y: 128
         width: 80
         height: 64
@@ -717,17 +717,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50c178d9058529e428f2a939e12cc84f
-      internalID: -482512563
+      spriteID: c28eeadeb5162cd4aad331c05ecab260
+      internalID: 1698596792
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_28
+      name: Male Skin3 flipped_28
       rect:
         serializedVersion: 2
-        x: 240
+        x: 720
         y: 128
         width: 80
         height: 64
@@ -738,98 +738,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e0d27ea66292ce429f64a61c28c1412
-      internalID: 255814144
+      spriteID: c2f2d05b9ec54ef438328fdd7698437d
+      internalID: 1753542349
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_29
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 64
-        width: 80
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9e72bf61254cc204f8181029d0190675
-      internalID: -1746689975
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Male Skin2_30
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 64
-        width: 80
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b20016ef012c6f648808b642cbd6c59c
-      internalID: -604748733
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Male Skin2_31
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 64
-        width: 80
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7172db35e153e91429cfe62ec1d5b01a
-      internalID: -605656997
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Male Skin2_32
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 64
-        width: 80
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 213091704e1c5734abf13f10b96d56cc
-      internalID: 719720199
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Male Skin2_33
+      name: Male Skin3 flipped_29
       rect:
         serializedVersion: 2
         x: 320
@@ -843,14 +759,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f5f042c079af6841b014583d2f5aa2c
-      internalID: -1812165939
+      spriteID: 8e4b8777e2637114eaa2b23d588976b6
+      internalID: -823168123
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_34
+      name: Male Skin3 flipped_30
       rect:
         serializedVersion: 2
         x: 400
@@ -864,14 +780,98 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a0efd359ed05954abb6dfffe77ee486
-      internalID: 1451731477
+      spriteID: c0d623b42bafc78478ea5dc88c1de174
+      internalID: -734017579
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_35
+      name: Male Skin3 flipped_31
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 64
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8c9e707f5812b4083ff30438d25b44
+      internalID: -45667320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Skin3 flipped_32
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 64
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786116209e5536a488db86146e326cbc
+      internalID: 1577806716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Skin3 flipped_33
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 64
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88e44fcc09ed844fb72f26290380829
+      internalID: 509253253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Skin3 flipped_34
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 64
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a7df8299ac12a4c81e17ec29cddfd1
+      internalID: -1240547450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Male Skin3 flipped_35
       rect:
         serializedVersion: 2
         x: 0
@@ -885,14 +885,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50292afad64491c4983cb0d590f4e806
-      internalID: -1960991432
+      spriteID: 455ce6c2bacc82c4ca67ffbf01c1d62a
+      internalID: -498032045
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_36
+      name: Male Skin3 flipped_36
       rect:
         serializedVersion: 2
         x: 80
@@ -906,14 +906,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1baea26f5ccdfd84589e99eb601008a3
-      internalID: -1058163777
+      spriteID: 14d03f87228ce4342800abfbd19bf245
+      internalID: 865219376
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_37
+      name: Male Skin3 flipped_37
       rect:
         serializedVersion: 2
         x: 160
@@ -927,14 +927,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e4936bfeb50c0041a9a6dfe4e5950af
-      internalID: -1091488112
+      spriteID: 5386b1ae701bd2c4fb9490992ced642a
+      internalID: -1108111793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_38
+      name: Male Skin3 flipped_38
       rect:
         serializedVersion: 2
         x: 240
@@ -948,14 +948,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0bfcd30817b8664a8e114262c94b434
-      internalID: -783402257
+      spriteID: a15d272cd31c60942849ee42d189fbfd
+      internalID: 137482672
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_39
+      name: Male Skin3 flipped_39
       rect:
         serializedVersion: 2
         x: 320
@@ -969,14 +969,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc1c4c69e5b343d408c4ccfd8786790f
-      internalID: 448713642
+      spriteID: f2c5574f59d1be74284f6ec6a301e3c0
+      internalID: -632675466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_40
+      name: Male Skin3 flipped_40
       rect:
         serializedVersion: 2
         x: 400
@@ -990,14 +990,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d787a9a7a1b3bda4b991bf5e9ad35c73
-      internalID: 1247034981
+      spriteID: eef82ff2d754d6a46b4444a37ecbaca3
+      internalID: -1015659294
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_41
+      name: Male Skin3 flipped_41
       rect:
         serializedVersion: 2
         x: 480
@@ -1011,14 +1011,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f31b8fb6354059540b37b306f7c5f76f
-      internalID: 884446447
+      spriteID: 61468b33306124647a1794260cf719f2
+      internalID: 586274054
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_42
+      name: Male Skin3 flipped_42
       rect:
         serializedVersion: 2
         x: 560
@@ -1032,14 +1032,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b62b71eb4e27c784b90da837cf224cdc
-      internalID: 179311992
+      spriteID: a97431adb671f2b40933bb68158a88cd
+      internalID: -1581955040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_43
+      name: Male Skin3 flipped_43
       rect:
         serializedVersion: 2
         x: 640
@@ -1053,14 +1053,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7a06bdaf56b4a244a56693a93553c07
-      internalID: 1831021825
+      spriteID: 1bc774b30f7da5541b2d074fa6c9a130
+      internalID: 120586834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Male Skin2_44
+      name: Male Skin3 flipped_44
       rect:
         serializedVersion: 2
         x: 720
@@ -1074,8 +1074,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75ab29de56f75e546b62177f2e8f902b
-      internalID: -1194927262
+      spriteID: 279b53b3e89204148a802f0b41765e3b
+      internalID: -1863071432
       vertices: []
       indices: 
       edges: []
@@ -1091,51 +1091,51 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Male Skin2_0: -1487890004
-      Male Skin2_1: -224882589
-      Male Skin2_10: 331858409
-      Male Skin2_11: 1944081147
-      Male Skin2_12: 1126466045
-      Male Skin2_13: -755500037
-      Male Skin2_14: -670469
-      Male Skin2_15: -1547073472
-      Male Skin2_16: -738184095
-      Male Skin2_17: 628894953
-      Male Skin2_18: 1376344736
-      Male Skin2_19: 1875582833
-      Male Skin2_2: 1991990586
-      Male Skin2_20: 217521189
-      Male Skin2_21: -1199734830
-      Male Skin2_22: -84912420
-      Male Skin2_23: 310825781
-      Male Skin2_24: -700112539
-      Male Skin2_25: 1303253561
-      Male Skin2_26: 1572215128
-      Male Skin2_27: -482512563
-      Male Skin2_28: 255814144
-      Male Skin2_29: -1746689975
-      Male Skin2_3: 1908976446
-      Male Skin2_30: -604748733
-      Male Skin2_31: -605656997
-      Male Skin2_32: 719720199
-      Male Skin2_33: -1812165939
-      Male Skin2_34: 1451731477
-      Male Skin2_35: -1960991432
-      Male Skin2_36: -1058163777
-      Male Skin2_37: -1091488112
-      Male Skin2_38: -783402257
-      Male Skin2_39: 448713642
-      Male Skin2_4: -1746084708
-      Male Skin2_40: 1247034981
-      Male Skin2_41: 884446447
-      Male Skin2_42: 179311992
-      Male Skin2_43: 1831021825
-      Male Skin2_44: -1194927262
-      Male Skin2_5: 706908798
-      Male Skin2_6: 906323471
-      Male Skin2_7: -1882695737
-      Male Skin2_8: -1337369364
-      Male Skin2_9: 275510396
+      Male Skin3 flipped_0: 1405206515
+      Male Skin3 flipped_1: 1016495098
+      Male Skin3 flipped_10: 742141003
+      Male Skin3 flipped_11: 1721858442
+      Male Skin3 flipped_12: 1121313678
+      Male Skin3 flipped_13: -7223569
+      Male Skin3 flipped_14: 99397305
+      Male Skin3 flipped_15: 841932567
+      Male Skin3 flipped_16: 1861505844
+      Male Skin3 flipped_17: 671575953
+      Male Skin3 flipped_18: 1548016924
+      Male Skin3 flipped_19: -1904081052
+      Male Skin3 flipped_2: 810261046
+      Male Skin3 flipped_20: 335106780
+      Male Skin3 flipped_21: -1965915105
+      Male Skin3 flipped_22: 1582613885
+      Male Skin3 flipped_23: 82182870
+      Male Skin3 flipped_24: 122440020
+      Male Skin3 flipped_25: 1077173305
+      Male Skin3 flipped_26: 1434026724
+      Male Skin3 flipped_27: 1698596792
+      Male Skin3 flipped_28: 1753542349
+      Male Skin3 flipped_29: -823168123
+      Male Skin3 flipped_3: 416912329
+      Male Skin3 flipped_30: -734017579
+      Male Skin3 flipped_31: -45667320
+      Male Skin3 flipped_32: 1577806716
+      Male Skin3 flipped_33: 509253253
+      Male Skin3 flipped_34: -1240547450
+      Male Skin3 flipped_35: -498032045
+      Male Skin3 flipped_36: 865219376
+      Male Skin3 flipped_37: -1108111793
+      Male Skin3 flipped_38: 137482672
+      Male Skin3 flipped_39: -632675466
+      Male Skin3 flipped_4: 2009227782
+      Male Skin3 flipped_40: -1015659294
+      Male Skin3 flipped_41: 586274054
+      Male Skin3 flipped_42: -1581955040
+      Male Skin3 flipped_43: 120586834
+      Male Skin3 flipped_44: -1863071432
+      Male Skin3 flipped_5: -2039497991
+      Male Skin3 flipped_6: 1708148606
+      Male Skin3 flipped_7: -1067382491
+      Male Skin3 flipped_8: -151576674
+      Male Skin3 flipped_9: -494987240
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
