@@ -1,0 +1,2305 @@
+fileFormatVersion: 2
+guid: db0e2f0d83312cb4f87a69c11899bdf3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cBBtAY_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 221
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd14e7f6b9b7b3468e476ae9e259a49
+      internalID: -360294982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 221
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a403fdf555a284aa677f4054862500
+      internalID: 203841017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_2
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 221
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1793c236c50abc34cae5825e96fa6f29
+      internalID: -2103111644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_3
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 221
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbea7656824068049aa4786a98d35e32
+      internalID: 425245904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_4
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 221
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227caed8604f6ae46b5ba8f268d65bb8
+      internalID: -846763660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_5
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 221
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a349165cd4eb0b146b1d1161fe17fe0c
+      internalID: 308954542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_6
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 221
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51835adf2aee7654a956f5b38f7c3128
+      internalID: 1644528977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_7
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 221
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac3e9fc12aa48740b546fdd388dbd65
+      internalID: 1301942298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_8
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 221
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef914a6345192343b53d3d54ece303c
+      internalID: 768494801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 199
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c37954228ce2254a848d2d013754777
+      internalID: -1499711175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_10
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 199
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a163a773329b2247bbf09530a4c6f72
+      internalID: 2002215432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_11
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 199
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96d5d7e329e469458485889d36bc0f4
+      internalID: -1243625396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_12
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 199
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d0f1d8d3894e0418c29f1e475cef2b
+      internalID: 164066166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_13
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 199
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477c53195dc01784f8b7c9631b0c7d68
+      internalID: -657049989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_14
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 199
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3901d2a5957df784b95ca5341a1c730f
+      internalID: -1613575480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_15
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 199
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ec13344d7b4664e9d6d29f313e8b28
+      internalID: 1218482452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_16
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 199
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24fc9951754e494dbd94cf057b4fdca
+      internalID: 145232970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_17
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 199
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a67ede13bc743544b4ee1d9cb7ed004
+      internalID: 1654475950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 177
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def7f9fbd2057ad42a1f631636897641
+      internalID: -1011828195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_19
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 177
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74dfe531ac1766448b028b4ca0c3e15d
+      internalID: 2068121067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_20
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 177
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79731b3efd06ef949a6a82e7fe8ca564
+      internalID: -507245050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_21
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 177
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97291bbf90ca20c4586d93f49514b7da
+      internalID: -1224790980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_22
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 177
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba8fb77c9249144c9161d5593a9e33e
+      internalID: -632520986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_23
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 177
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27256faaaa00424995452bdb176a15f
+      internalID: 238703040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_24
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 177
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6225ae5e5de6034699e62bf850ff6c1
+      internalID: -1612094847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_25
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 177
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877278a722fef6e4ab0621c5c6b9cd39
+      internalID: -1203182140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_26
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 177
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed07b993baab90942916c9d8d8a766ba
+      internalID: 902241106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_27
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 155
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f75f5aa030eff4eaff5656dedf0796
+      internalID: 1977621583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_28
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 155
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac7e5bc54038d74dbef87942db732ea
+      internalID: 1601802341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_29
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 155
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1db480f7a2dc3746ae165c695a3af29
+      internalID: 2084714674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_30
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 155
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd5aef517e27e246aca8578d650a8d4
+      internalID: 7441219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_31
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 155
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d55b87a33ea664468790107e5a632f2
+      internalID: 1798452686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_32
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 155
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39749e10c8ccbf94ca32f549379b8668
+      internalID: -1004292860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_33
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 155
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6effeb77a4707854abdfb7f53597b2c7
+      internalID: 2046728709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_34
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 155
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d8302d99389b54fb1c07801c4f2846
+      internalID: 1307896734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_35
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 155
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e3d8581db06684db5ade2b02ce1756
+      internalID: 495410787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 133
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a883c6446dbff44f9844bf1721d8182
+      internalID: -281235103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_37
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 133
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc9ff65c3685654db42d7803fccf64d
+      internalID: -47612803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_38
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 133
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9613fe1a2730cf045a59b11bcdce6aaa
+      internalID: -617628646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_39
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 133
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060ad54d32e4c1c43851ec05b394ea75
+      internalID: 789191599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_40
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 133
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06eef16a19e9b064f9046202982ce361
+      internalID: 580300979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_41
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 133
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7fcac1c882b1040a9a3555a28fee9b
+      internalID: 2109704942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_42
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 133
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a0d5dd45189d14ba6fe69c6f0fe697
+      internalID: -954943670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_43
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 133
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2660669df123c4ba784e540a95f17b
+      internalID: 1099247207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_44
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 133
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e42aa39a3ce1a40b3a26d7a394fc00
+      internalID: 237759661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_45
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 111
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a14c3242f3db5a4bb55a7a43184db28
+      internalID: 1499192081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_46
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 111
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3da503109c8964a9803f5327c316a4
+      internalID: -346214645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_47
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 111
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d7267892e55084ebeaff984f379c6c
+      internalID: 925220054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_48
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 111
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3ae82573f9a7b449af96be82813949
+      internalID: 912485623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_49
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 111
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0776a170f0a541c42b316995806be056
+      internalID: 777175813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_50
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 111
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e71e2d2a44cf0a4fa6ef2eb3f13326d
+      internalID: -263806567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_51
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 111
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac7b89c097fe3a4d9fd64723a3b8443
+      internalID: -2072529265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_52
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 111
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee69d1addb031ed4db99c4cddafcde94
+      internalID: -297300793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_53
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 111
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c0c39e3ad538942b8824879eeb1b11
+      internalID: -1091324741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_54
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 89
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ba0eb4a51a46942b882a5f10eeca78
+      internalID: -622485102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_55
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 89
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5305fb1a83037914eb5b248807255272
+      internalID: -8496065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_56
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 89
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf313c4019876e48bd1d7484412cf08
+      internalID: -1808468661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_57
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 89
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f583bd8f71da2c3428f2b21b916e07f3
+      internalID: -266005657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_58
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 89
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2559ed12b764b4e4488ee10e737c19b1
+      internalID: 213416690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_59
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 89
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b77c73ceb9a42448746b6a33984adc
+      internalID: 1884576196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_60
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 89
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84a4429888254d488a1d39bea72bbf7
+      internalID: 60054581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_61
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 89
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aee5d831d90dcc4d816c7ec944ddc3d
+      internalID: -1555294274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_62
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 89
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac82c17b52f8794fa11ec8e49b073b4
+      internalID: 1510636693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_63
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 67
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8173c4e8f03320c4a9e70ff2b8d4086c
+      internalID: -1733635178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_64
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 67
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380272c6edf2681439631f8007c9d4f7
+      internalID: 935282254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_65
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 67
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aeb383986c6d6c428e76c55f160f90a
+      internalID: -1093412291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_66
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 67
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83a9945fcdc8af419c81bc089186930
+      internalID: -318413947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_67
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 67
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7915a091d403294eb5804fae91785ce
+      internalID: -547024982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_68
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 67
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d71ae619d4c8945a98417f9ce4ad41
+      internalID: 1916350015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_69
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 67
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a72d4f4e1248e488a96b6373e80ed6
+      internalID: -912075198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_70
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 67
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699c96b0534baa7419b31f04034f8dfa
+      internalID: 446428054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_71
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 67
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae656958eb05f7428c798274d65692f
+      internalID: -339444772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_72
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 45
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5187f51bd558f884ebada6e3075444af
+      internalID: 1069900810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_73
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 45
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567c001ae05be0f42aff1eb2f717f668
+      internalID: 2036463666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_74
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 45
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4931fd4b5e7026b438c898dfa3d80e92
+      internalID: 1315068716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_75
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 45
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcad430555ce92d4aa1cf474c17900c3
+      internalID: -2132902158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_76
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 45
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b598d7bb825f64e409fd1654d47abe5a
+      internalID: -1258544686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_77
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 45
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ac4ecc2f750284481e7181c6da326f
+      internalID: -1791055170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_78
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 45
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7db3cb276df2f49bfd4416cc8edd94
+      internalID: 1215404909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_79
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 45
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33911723640dea34a9e9b46c3ffd2452
+      internalID: -560631256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_80
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 45
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2d0eef443aa374e9831cf6476664dd
+      internalID: -1505391060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_81
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 23
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4a4d41db8749544ae7ab36e447f399
+      internalID: -1472251792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_82
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 23
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112f1289f05f36d41adba276d2cad933
+      internalID: -198809438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_83
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 23
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fa20a43c99cdd42b756383e1d4573f
+      internalID: 1607433995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_84
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 23
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cab024a9d05ee248ad62ca665b41636
+      internalID: 1347215328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_85
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 23
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d152edf2af3029945888b6d3d36ae47d
+      internalID: 646224007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_86
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 23
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fa75972ab3c4d4a9a4cf506e3d70c2
+      internalID: -378219037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_87
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 23
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b32f2e050eb21349b1b7a62088f76a5
+      internalID: 980468992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_88
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 23
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13a3f85f831d75449ebed41fcf17f14
+      internalID: -1498634952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_89
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 23
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6a55bbb20bb3c44b2908bd7376e364
+      internalID: -209448540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_90
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c418f2546a101f42a60cf40211e6d70
+      internalID: -1758506463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_91
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658f129b90266c940bd5a69febe80f91
+      internalID: -150736991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_92
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3827fea31c94346b138367c7d80eae
+      internalID: -1382987782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_93
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617709f0fbd18c64a88694525337b785
+      internalID: 1526413902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_94
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86946dbfb21fc742a4be21520fe420b
+      internalID: 1416592526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_95
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6c98142db62b74d88c0638c5a36348
+      internalID: -1985922615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_96
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6dd7bc43ad1752478f9bb79d58af259
+      internalID: 211517318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_97
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ee3d5367cf1884681c191e3a7a93e3
+      internalID: -2111430530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cBBtAY_98
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f199a21f825c9b843b79afaff7c8981b
+      internalID: 932111395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      cBBtAY_0: -360294982
+      cBBtAY_1: 203841017
+      cBBtAY_10: 2002215432
+      cBBtAY_11: -1243625396
+      cBBtAY_12: 164066166
+      cBBtAY_13: -657049989
+      cBBtAY_14: -1613575480
+      cBBtAY_15: 1218482452
+      cBBtAY_16: 145232970
+      cBBtAY_17: 1654475950
+      cBBtAY_18: -1011828195
+      cBBtAY_19: 2068121067
+      cBBtAY_2: -2103111644
+      cBBtAY_20: -507245050
+      cBBtAY_21: -1224790980
+      cBBtAY_22: -632520986
+      cBBtAY_23: 238703040
+      cBBtAY_24: -1612094847
+      cBBtAY_25: -1203182140
+      cBBtAY_26: 902241106
+      cBBtAY_27: 1977621583
+      cBBtAY_28: 1601802341
+      cBBtAY_29: 2084714674
+      cBBtAY_3: 425245904
+      cBBtAY_30: 7441219
+      cBBtAY_31: 1798452686
+      cBBtAY_32: -1004292860
+      cBBtAY_33: 2046728709
+      cBBtAY_34: 1307896734
+      cBBtAY_35: 495410787
+      cBBtAY_36: -281235103
+      cBBtAY_37: -47612803
+      cBBtAY_38: -617628646
+      cBBtAY_39: 789191599
+      cBBtAY_4: -846763660
+      cBBtAY_40: 580300979
+      cBBtAY_41: 2109704942
+      cBBtAY_42: -954943670
+      cBBtAY_43: 1099247207
+      cBBtAY_44: 237759661
+      cBBtAY_45: 1499192081
+      cBBtAY_46: -346214645
+      cBBtAY_47: 925220054
+      cBBtAY_48: 912485623
+      cBBtAY_49: 777175813
+      cBBtAY_5: 308954542
+      cBBtAY_50: -263806567
+      cBBtAY_51: -2072529265
+      cBBtAY_52: -297300793
+      cBBtAY_53: -1091324741
+      cBBtAY_54: -622485102
+      cBBtAY_55: -8496065
+      cBBtAY_56: -1808468661
+      cBBtAY_57: -266005657
+      cBBtAY_58: 213416690
+      cBBtAY_59: 1884576196
+      cBBtAY_6: 1644528977
+      cBBtAY_60: 60054581
+      cBBtAY_61: -1555294274
+      cBBtAY_62: 1510636693
+      cBBtAY_63: -1733635178
+      cBBtAY_64: 935282254
+      cBBtAY_65: -1093412291
+      cBBtAY_66: -318413947
+      cBBtAY_67: -547024982
+      cBBtAY_68: 1916350015
+      cBBtAY_69: -912075198
+      cBBtAY_7: 1301942298
+      cBBtAY_70: 446428054
+      cBBtAY_71: -339444772
+      cBBtAY_72: 1069900810
+      cBBtAY_73: 2036463666
+      cBBtAY_74: 1315068716
+      cBBtAY_75: -2132902158
+      cBBtAY_76: -1258544686
+      cBBtAY_77: -1791055170
+      cBBtAY_78: 1215404909
+      cBBtAY_79: -560631256
+      cBBtAY_8: 768494801
+      cBBtAY_80: -1505391060
+      cBBtAY_81: -1472251792
+      cBBtAY_82: -198809438
+      cBBtAY_83: 1607433995
+      cBBtAY_84: 1347215328
+      cBBtAY_85: 646224007
+      cBBtAY_86: -378219037
+      cBBtAY_87: 980468992
+      cBBtAY_88: -1498634952
+      cBBtAY_89: -209448540
+      cBBtAY_9: -1499711175
+      cBBtAY_90: -1758506463
+      cBBtAY_91: -150736991
+      cBBtAY_92: -1382987782
+      cBBtAY_93: 1526413902
+      cBBtAY_94: 1416592526
+      cBBtAY_95: -1985922615
+      cBBtAY_96: 211517318
+      cBBtAY_97: -2111430530
+      cBBtAY_98: 932111395
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
