@@ -59,6 +59,3 @@ TagManager:
   - name: number
     uniqueID: 2701009669
     locked: 0
-  - name: blood
-    uniqueID: 275750787
-    locked: 0
