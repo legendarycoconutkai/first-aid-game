@@ -41,6 +41,9 @@ TagManager:
   - name: background
     uniqueID: 3216000873
     locked: 0
+  - name: body
+    uniqueID: 3864164675
+    locked: 0
   - name: frame
     uniqueID: 190045089
     locked: 0
@@ -55,4 +58,7 @@ TagManager:
     locked: 0
   - name: number
     uniqueID: 2701009669
+    locked: 0
+  - name: blood
+    uniqueID: 275750787
     locked: 0
