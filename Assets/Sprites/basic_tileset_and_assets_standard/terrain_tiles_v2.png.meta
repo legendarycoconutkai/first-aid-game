@@ -1,0 +1,420 @@
+fileFormatVersion: 2
+guid: 230b9c68e16ab1440a0dc84cdb2128a9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: terrain_tiles_v2_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 417
+        width: 96
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a1a8616e271144282e15d7d8691580
+      internalID: -1907855952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_tiles_v2_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 417
+        width: 32
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 4, z: 4, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f0e2a109f9511499fa7dc68fa17dcb
+      internalID: 1378542379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_tiles_v2_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 96
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 13, y: 9, z: 19, w: 10}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cfb5cce08043a441a6baa2732b02a81
+      internalID: -400749874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_tiles_v2_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 5, z: 5, w: 5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2836c9070f52a7541bcf57c8b5dbbfa4
+      internalID: 1015947628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_tiles_v2_32
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 4, z: 4, w: 3}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a790ae9f2fcf22b42bd834e31027e066
+      internalID: -1299158837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_tiles_v2_52
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 5, z: 4, w: 3}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f43045f7c4dc334aad1378e338c182b
+      internalID: 826212374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_tiles_v2_0
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 298
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120c32797e3d6d24fbbee789b7b42f46
+      internalID: 1614419614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrain_tiles_v2_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 91
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96f430866008cc47ab44db3e9c62d4f
+      internalID: 2051018451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      terrain_tiles_v2_0: 1614419614
+      terrain_tiles_v2_1: -1907855952
+      terrain_tiles_v2_10: 828376993
+      terrain_tiles_v2_11: 654501534
+      terrain_tiles_v2_12: -1447363606
+      terrain_tiles_v2_13: 1378542379
+      terrain_tiles_v2_14: -1886569586
+      terrain_tiles_v2_15: -662151062
+      terrain_tiles_v2_16: 1549396143
+      terrain_tiles_v2_17: 1063839309
+      terrain_tiles_v2_18: -996339368
+      terrain_tiles_v2_19: -1082746119
+      terrain_tiles_v2_2: 2051018451
+      terrain_tiles_v2_20: -1496607447
+      terrain_tiles_v2_21: -400749874
+      terrain_tiles_v2_22: 1015947628
+      terrain_tiles_v2_23: -499128581
+      terrain_tiles_v2_24: -1553506688
+      terrain_tiles_v2_25: -1519951391
+      terrain_tiles_v2_26: -803067579
+      terrain_tiles_v2_27: -755007236
+      terrain_tiles_v2_28: 1669299635
+      terrain_tiles_v2_29: -595987467
+      terrain_tiles_v2_3: -1656451125
+      terrain_tiles_v2_30: -545571562
+      terrain_tiles_v2_31: 613236901
+      terrain_tiles_v2_32: -1299158837
+      terrain_tiles_v2_33: -413654374
+      terrain_tiles_v2_34: 697972095
+      terrain_tiles_v2_35: 686159312
+      terrain_tiles_v2_36: -1857606365
+      terrain_tiles_v2_37: 1661995470
+      terrain_tiles_v2_38: -1687264557
+      terrain_tiles_v2_39: -1480200719
+      terrain_tiles_v2_4: -1710351621
+      terrain_tiles_v2_40: 214496355
+      terrain_tiles_v2_41: -862731161
+      terrain_tiles_v2_42: -1683219929
+      terrain_tiles_v2_43: 1041404134
+      terrain_tiles_v2_44: -263023406
+      terrain_tiles_v2_45: -947021071
+      terrain_tiles_v2_46: -881181623
+      terrain_tiles_v2_47: 1475684104
+      terrain_tiles_v2_48: -509638562
+      terrain_tiles_v2_49: -1856163508
+      terrain_tiles_v2_5: -1344698290
+      terrain_tiles_v2_50: 398503670
+      terrain_tiles_v2_51: -104068562
+      terrain_tiles_v2_52: 826212374
+      terrain_tiles_v2_53: -460244855
+      terrain_tiles_v2_54: -255489609
+      terrain_tiles_v2_55: 1490599833
+      terrain_tiles_v2_56: 1752353423
+      terrain_tiles_v2_57: 909594143
+      terrain_tiles_v2_58: 81977714
+      terrain_tiles_v2_59: 1282826993
+      terrain_tiles_v2_6: 1679838565
+      terrain_tiles_v2_60: 1188234375
+      terrain_tiles_v2_61: 540310156
+      terrain_tiles_v2_62: -2106630971
+      terrain_tiles_v2_63: 991648871
+      terrain_tiles_v2_64: 1201516197
+      terrain_tiles_v2_65: 1872539354
+      terrain_tiles_v2_66: -187246806
+      terrain_tiles_v2_67: -614884257
+      terrain_tiles_v2_68: 1027424269
+      terrain_tiles_v2_69: 1158384699
+      terrain_tiles_v2_7: 1057887788
+      terrain_tiles_v2_70: -1805142719
+      terrain_tiles_v2_71: 1720992897
+      terrain_tiles_v2_72: 12843331
+      terrain_tiles_v2_73: 1583489760
+      terrain_tiles_v2_74: 2051597069
+      terrain_tiles_v2_75: -1120461438
+      terrain_tiles_v2_76: 144194073
+      terrain_tiles_v2_77: -1209877187
+      terrain_tiles_v2_78: 297732594
+      terrain_tiles_v2_79: -1557198255
+      terrain_tiles_v2_8: -901954896
+      terrain_tiles_v2_80: -709256429
+      terrain_tiles_v2_81: -1212881379
+      terrain_tiles_v2_82: 2063466023
+      terrain_tiles_v2_83: 1546245352
+      terrain_tiles_v2_84: 1371189459
+      terrain_tiles_v2_85: -1296409056
+      terrain_tiles_v2_86: -2117518616
+      terrain_tiles_v2_87: 1663427424
+      terrain_tiles_v2_88: -357673298
+      terrain_tiles_v2_89: 1742516634
+      terrain_tiles_v2_9: 2061475243
+      terrain_tiles_v2_90: 1666277507
+      terrain_tiles_v2_91: 962228646
+      terrain_tiles_v2_92: -375645684
+      terrain_tiles_v2_93: -536570434
+      terrain_tiles_v2_94: 224950022
+      terrain_tiles_v2_95: 251361887
+      terrain_tiles_v2_96: 617036462
+      terrain_tiles_v2_97: -503102172
+      terrain_tiles_v2_98: -1593769884
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
