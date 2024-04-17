@@ -6,7 +6,7 @@ using TMPro;
 
 public class Phone : MonoBehaviour
 {
-    public TMP_InputField charHolder;
+    public TextMeshProUGUI numbers;
     public GameObject button1;
     public GameObject button2;
     public GameObject button3;
@@ -20,56 +20,60 @@ public class Phone : MonoBehaviour
     public GameObject clearbt;
     public GameObject callbutton;
 
+    public GameObject CallInterface;
+    public GameObject CallingInterface;
+
     public void b1()
     {
-        charHolder.text = charHolder.text + "1";
+        numbers.text = numbers.text + "1";
     }
     public void b2()
     {
-        charHolder.text = charHolder.text + "2";
+        numbers.text = numbers.text + "2";
     }
     public void b3()
     {
-        charHolder.text = charHolder.text + "3";
+        numbers.text = numbers.text + "3";
     }
     public void b4()
     {
-        charHolder.text = charHolder.text + "4";
+        numbers.text = numbers.text + "4";
     }
     public void b5()
     {
-        charHolder.text = charHolder.text + "5";
+        numbers.text = numbers.text + "5";
     }
     public void b6()
     {
-        charHolder.text = charHolder.text + "6";
+        numbers.text = numbers.text + "6";
     }
     public void b7()
     {
-        charHolder.text = charHolder.text + "7";
+        numbers.text = numbers.text + "7";
     }
     public void b8()
     {
-        charHolder.text = charHolder.text + "8";
+        numbers.text = numbers.text + "8";
     }
     public void b9()
     {
-        charHolder.text = charHolder.text + "9";
+        numbers.text = numbers.text + "9";
     }
     public void b0()
     {
-        charHolder.text = charHolder.text + "0";
+        numbers.text = numbers.text + "0";
     }
 
     public void clearEvent()
     {
-        charHolder.text = null;
+        numbers.text = null;
     }
     public void callenvent()
     {
-        if (charHolder.text == "112")
+        if (numbers.text == "112")
         {
-            Debug.Log("Calling");
+            CallInterface.SetActive(false);
+            CallingInterface.SetActive(true);
         }
         else
         {
