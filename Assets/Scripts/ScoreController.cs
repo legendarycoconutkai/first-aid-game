@@ -8,17 +8,19 @@ public class ScoreController : MonoBehaviour
 {
     
     public TextMeshProUGUI scoreText;
-    public float timeBetweenReductions = 0.5f; //change this to vary the speed of the score reduction
+    public float timeBetweenReductions;
     public bool active = true;
 
     private int startValue = 9999;
     private int currentValue;
     private float nextReductionTime = 0.0f;
+    private float fixedtime = 0.5f; //change this to vary the speed of the score reduction
 
     private void Start()
     {
         currentValue = startValue;
         scoreText.text = currentValue.ToString();
+        timeBetweenReductions = fixedtime;
     }
 
     void Update()
@@ -38,11 +40,11 @@ public class ScoreController : MonoBehaviour
     {
         nextReductionTime = rate;
 
-        if (rate < 0.5f)
+        if (rate < fixedtime)
         {
             scoreText.color = Color.black;
         }
-        else if (rate == 0.5f)
+        else if (rate == fixedtime)
         {
              scoreText.color = Color.white;
         }
