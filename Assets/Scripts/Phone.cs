@@ -22,6 +22,9 @@ public class Phone : MonoBehaviour
 
     public GameObject CallInterface;
     public GameObject CallingInterface;
+    public GameObject FailedCallInterface;
+
+    public PrimarySurveyController psc;
 
     public void b1()
     {
@@ -74,10 +77,14 @@ public class Phone : MonoBehaviour
         {
             CallInterface.SetActive(false);
             CallingInterface.SetActive(true);
+            psc.booleanController(2);
         }
         else
         {
-            Debug.Log("Failed to connect");
+            CallInterface.SetActive(false);
+            FailedCallInterface.SetActive(true);
         }
+
+        clearEvent();
     }
 }
