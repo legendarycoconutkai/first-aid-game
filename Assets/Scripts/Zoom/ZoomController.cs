@@ -17,7 +17,7 @@ public class SwipeCharacterController : MonoBehaviour
     public GameObject Arm;
     public GameObject Leg;
     public GameObject Torso;
-    private static Boolean closeSwitch;
+    //private static Boolean closeSwitch;
 
     // Start is called before the first frame update
     void Start()
@@ -25,7 +25,7 @@ public class SwipeCharacterController : MonoBehaviour
         headCamera.SetActive(false);
         legCamera.SetActive(false);
         armCamera.SetActive(false);
-        closeSwitch = false;
+        //closeSwitch = false;
         
 
     }

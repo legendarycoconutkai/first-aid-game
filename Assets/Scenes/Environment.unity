@@ -5168,7 +5168,7 @@ RectTransform:
   - {fileID: 1288698097}
   - {fileID: 1553173092}
   - {fileID: 395935743}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 783816837}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -6449,7 +6449,7 @@ GameObject:
   - component: {fileID: 454975174}
   - component: {fileID: 454975177}
   m_Layer: 5
-  m_Name: RightLegCanva
+  m_Name: RightLegCamCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6469,7 +6469,7 @@ RectTransform:
   m_Children:
   - {fileID: 146578227}
   - {fileID: 1802116379}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2047212744}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -7520,7 +7520,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &518003838
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7610,7 +7610,7 @@ RectTransform:
   - {fileID: 512054295}
   - {fileID: 2145569404}
   - {fileID: 1825932570}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2047212744}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -9989,14 +9989,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 744354378}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.47, y: -0.463, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.47, y: -0.463, z: -90}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2119239468}
   - {fileID: 101390346}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 783816837}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &744354381
 MonoBehaviour:
@@ -10358,6 +10358,41 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 780253845}
   m_CullTransparentMesh: 1
+--- !u!1 &783816836
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 783816837}
+  m_Layer: 0
+  m_Name: Environment
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &783816837
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 783816836}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 90}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 361379447}
+  - {fileID: 1978356175}
+  - {fileID: 744354380}
+  - {fileID: 1762976360}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &790920301
 GameObject:
   m_ObjectHideFlags: 0
@@ -10456,7 +10491,7 @@ GameObject:
   - component: {fileID: 800222911}
   - component: {fileID: 800222914}
   m_Layer: 5
-  m_Name: LeftLegCanva
+  m_Name: LeftLegCamCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10476,7 +10511,7 @@ RectTransform:
   m_Children:
   - {fileID: 739276357}
   - {fileID: 641070704}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2047212744}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -12161,7 +12196,7 @@ GameObject:
   - component: {fileID: 957221856}
   - component: {fileID: 957221857}
   m_Layer: 5
-  m_Name: HeadCamCanva
+  m_Name: HeadCamCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12245,7 +12280,7 @@ RectTransform:
   - {fileID: 43051960}
   - {fileID: 746556730}
   - {fileID: 483319026}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2047212744}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -14822,7 +14857,7 @@ GameObject:
   - component: {fileID: 1216268414}
   - component: {fileID: 1216268417}
   m_Layer: 5
-  m_Name: LeftArmCanva
+  m_Name: LeftArmCamCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14842,7 +14877,7 @@ RectTransform:
   m_Children:
   - {fileID: 1855555678}
   - {fileID: 1946521546}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2047212744}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -16024,7 +16059,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1334132799
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16107,7 +16142,7 @@ RectTransform:
   - {fileID: 1140653444}
   - {fileID: 166184507}
   - {fileID: 1575888199}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2047212744}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -17854,7 +17889,7 @@ GameObject:
   - component: {fileID: 1490696861}
   - component: {fileID: 1490696862}
   m_Layer: 5
-  m_Name: TorsoCanva
+  m_Name: TorsoCamCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17875,7 +17910,7 @@ RectTransform:
   - {fileID: 974897727}
   - {fileID: 1358806371}
   - {fileID: 1924537913}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2047212744}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -19534,7 +19569,7 @@ GameObject:
   - component: {fileID: 1613486103}
   - component: {fileID: 1613486107}
   m_Layer: 5
-  m_Name: SideCam
+  m_Name: SideCamCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19619,7 +19654,7 @@ RectTransform:
   - {fileID: 918171499}
   - {fileID: 120946591}
   - {fileID: 926299353}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2047212744}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -19857,7 +19892,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 361379443}
+      - m_Target: {fileID: 783816836}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -19869,31 +19904,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1978356171}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1762976357}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2047212743}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -19904,54 +19915,6 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 29603733}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 518003837}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1334132798}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 744354378}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1627137902
 MonoBehaviour:
@@ -20984,13 +20947,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1762976357}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.8511778, w: 0.52487755}
-  m_LocalPosition: {x: -5.798, y: 0.202, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: 0.8511778, w: 0.52487755}
+  m_LocalPosition: {x: -5.798, y: 0.202, z: -90}
   m_LocalScale: {x: 0.45, y: 0.45, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 552697143}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 783816837}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 116.68}
 --- !u!1 &1767940642
 GameObject:
@@ -22931,7 +22894,7 @@ GameObject:
   - component: {fileID: 1934108327}
   - component: {fileID: 1934108326}
   m_Layer: 5
-  m_Name: MouthCam
+  m_Name: MouthCamCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23030,7 +22993,7 @@ RectTransform:
   - {fileID: 780253846}
   - {fileID: 1121048388}
   - {fileID: 624255957}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2047212744}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -23965,12 +23928,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1978356171}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.68, y: 0.34, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.68, y: 0.34, z: -90}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 783816837}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1978356177
 MonoBehaviour:
@@ -24463,6 +24426,47 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &2047212743
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2047212744}
+  m_Layer: 0
+  m_Name: Full Body
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2047212744
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047212743}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 90}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 518003841}
+  - {fileID: 1334132802}
+  - {fileID: 957221855}
+  - {fileID: 1934108330}
+  - {fileID: 1216268412}
+  - {fileID: 2106230938}
+  - {fileID: 800222909}
+  - {fileID: 454975172}
+  - {fileID: 1490696856}
+  - {fileID: 1613486106}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2051734919
 GameObject:
   m_ObjectHideFlags: 0
@@ -25146,7 +25150,7 @@ GameObject:
   - component: {fileID: 2106230940}
   - component: {fileID: 2106230943}
   m_Layer: 5
-  m_Name: RightArmCanva
+  m_Name: RightArmCamCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25166,7 +25170,7 @@ RectTransform:
   m_Children:
   - {fileID: 175612192}
   - {fileID: 336274590}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2047212744}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -25899,20 +25903,8 @@ SceneRoots:
   m_Roots:
   - {fileID: 1166597508}
   - {fileID: 175816346}
-  - {fileID: 361379447}
-  - {fileID: 1978356175}
-  - {fileID: 744354380}
-  - {fileID: 1762976360}
-  - {fileID: 518003841}
-  - {fileID: 1334132802}
-  - {fileID: 957221855}
-  - {fileID: 1934108330}
-  - {fileID: 1216268412}
-  - {fileID: 2106230938}
-  - {fileID: 800222909}
-  - {fileID: 454975172}
-  - {fileID: 1490696856}
-  - {fileID: 1613486106}
+  - {fileID: 783816837}
+  - {fileID: 2047212744}
   - {fileID: 1462381084}
   - {fileID: 159960170}
   - {fileID: 490718761}
