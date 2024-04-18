@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 19fb12f4e0c02da4cb000502a4b0b3d2
+guid: 0621e16155bb8c24b9143d285608b885
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -134,70 +134,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: worker2 copy_0
-      rect:
-        serializedVersion: 2
-        x: 326
-        y: 46
-        width: 337
-        height: 1461
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ebd6e059a8e64bb4ea0384dcd849644e
-      internalID: 451386343
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: worker2 copy_1
-      rect:
-        serializedVersion: 2
-        x: 1262
-        y: 46
-        width: 337
-        height: 1461
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0fbbe351b6bf2364f907d58474f42815
-      internalID: 562677959
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: worker2 copy_2
-      rect:
-        serializedVersion: 2
-        x: 800
-        y: 50
-        width: 337
-        height: 1461
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b32fbf518f0d3d6438f98f1959a7a0cd
-      internalID: -474907283
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -208,10 +145,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      worker2 copy_0: 1372002491
-      worker2 copy_1: 1567240425
-      worker2 copy_2: 451386343
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
