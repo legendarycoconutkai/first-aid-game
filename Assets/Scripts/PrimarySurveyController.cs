@@ -9,7 +9,8 @@ public class PrimarySurveyController : MonoBehaviour
     public TextMeshProUGUI[] character;
 
     private int order = 0;
-    private int bonusScore = 0;
+    public int bonusScore = 0;
+    private bool isAllDoneBool = false;
 
     void Start()
     {
@@ -29,16 +30,16 @@ public class PrimarySurveyController : MonoBehaviour
     {
         for (int i = 0; i < PrimarySurvey.Length; i++)
         {
-            if (PrimarySurvey[i])
+            if (PrimarySurvey[i] && !isAllDoneBool)
             {
                 character[i].color = Color.white;
                 isInOrder(i);
-                isAllDone();
+                isAllDoneBool = isAllDone();
             }
         }   
     }
 
-    private int getBonusScore()
+    public int getBonusScore()
     {
         return bonusScore;
     }
@@ -47,17 +48,21 @@ public class PrimarySurveyController : MonoBehaviour
     {
         if (i > order)
         {
-            bonusScore += (1000 - (i - order) * 100);
+            bonusScore += (1000 - ((i - order) * 100));
+            order = i;
         }
-
-        order = i;
     }
 
-    private void isAllDone()
+    private bool isAllDone()
     {
         if (PrimarySurvey[0] && PrimarySurvey[1] && PrimarySurvey[2] && PrimarySurvey[3] && PrimarySurvey[4] && PrimarySurvey[5])
         {
             bonusScore += 1000;
+            return true;
         }   
+        else
+        {
+            return false;
+        }
     }
 }
