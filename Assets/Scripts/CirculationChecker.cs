@@ -42,6 +42,7 @@ public class CirculationChecker : MonoBehaviour
 
         if (allTrue)
         {
+            Debug.Log("All body parts are active");
             pcs.booleanController(5);
         }
     }

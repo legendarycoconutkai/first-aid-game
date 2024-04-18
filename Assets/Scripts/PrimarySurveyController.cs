@@ -6,8 +6,10 @@ using UnityEngine;
 public class PrimarySurveyController : MonoBehaviour
 {
     public bool[] PrimarySurvey = new bool[6];
-    
     public TextMeshProUGUI[] character;
+
+    private int order = 0;
+    private int bonusScore = 0;
 
     void Start()
     {
@@ -17,37 +19,45 @@ public class PrimarySurveyController : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (PrimarySurvey[0])
-        {
-            character[0].color = Color.white;
-        }
-        else if (PrimarySurvey[1])
-        {
-            character[1].color = Color.white;
-        }
-        else if (PrimarySurvey[2])
-        {
-            character[2].color = Color.white;
-        }
-        else if (PrimarySurvey[3])
-        {
-            character[3].color = Color.white;
-        }
-        else if (PrimarySurvey[4])
-        {
-            character[4].color = Color.white;
-        }
-        else if (PrimarySurvey[5])
-        {
-            character[5].color = Color.white;
-        }   
-    }
-
     public void booleanController(int i)
     {
         PrimarySurvey[i] = true;
+        updateGuide();
+    }
+
+    private void updateGuide()
+    {
+        for (int i = 0; i < PrimarySurvey.Length; i++)
+        {
+            if (PrimarySurvey[i])
+            {
+                character[i].color = Color.white;
+                isInOrder(i);
+                isAllDone();
+            }
+        }   
+    }
+
+    private int getBonusScore()
+    {
+        return bonusScore;
+    }
+
+    private void isInOrder(int i)
+    {
+        if (i > order)
+        {
+            bonusScore += (1000 - (i - order) * 100);
+        }
+
+        order = i;
+    }
+
+    private void isAllDone()
+    {
+        if (PrimarySurvey[0] && PrimarySurvey[1] && PrimarySurvey[2] && PrimarySurvey[3] && PrimarySurvey[4] && PrimarySurvey[5])
+        {
+            bonusScore += 1000;
+        }   
     }
 }
