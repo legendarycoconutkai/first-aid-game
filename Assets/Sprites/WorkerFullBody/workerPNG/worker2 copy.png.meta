@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 19fb12f4e0c02da4cb000502a4b0b3d2
+guid: b1590d1868008924b861860fb761cfd6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -139,9 +139,9 @@ TextureImporter:
       name: worker2 copy_0
       rect:
         serializedVersion: 2
-        x: 326
-        y: 46
-        width: 337
+        x: 365
+        y: 50
+        width: 339
         height: 1461
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -150,8 +150,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebd6e059a8e64bb4ea0384dcd849644e
-      internalID: 451386343
+      spriteID: c97c515443aa61549ba56a959129c5d3
+      internalID: -1000603436
       vertices: []
       indices: 
       edges: []
@@ -160,9 +160,9 @@ TextureImporter:
       name: worker2 copy_1
       rect:
         serializedVersion: 2
-        x: 1262
-        y: 46
-        width: 337
+        x: 836
+        y: 50
+        width: 339
         height: 1461
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -171,8 +171,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0fbbe351b6bf2364f907d58474f42815
-      internalID: 562677959
+      spriteID: ac4e4ac9ac4835f418594c3de028ec39
+      internalID: 134254299
       vertices: []
       indices: 
       edges: []
@@ -181,9 +181,9 @@ TextureImporter:
       name: worker2 copy_2
       rect:
         serializedVersion: 2
-        x: 800
+        x: 1303
         y: 50
-        width: 337
+        width: 339
         height: 1461
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -192,8 +192,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b32fbf518f0d3d6438f98f1959a7a0cd
-      internalID: -474907283
+      spriteID: bebc24dd89ee4c24d923fd10a9b02a23
+      internalID: -89954044
       vertices: []
       indices: 
       edges: []
@@ -209,9 +209,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      worker2 copy_0: 1372002491
-      worker2 copy_1: 1567240425
-      worker2 copy_2: 451386343
+      worker2 copy_0: -1000603436
+      worker2 copy_1: 134254299
+      worker2 copy_2: -89954044
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
