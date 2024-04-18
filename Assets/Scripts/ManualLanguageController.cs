@@ -35,4 +35,9 @@ public class ManualLanguageController : MonoBehaviour
             manual[1].SetActive(true);
         }
     }
+
+    public bool getLanguage()
+    {
+        return isEng;
+    }
 }
