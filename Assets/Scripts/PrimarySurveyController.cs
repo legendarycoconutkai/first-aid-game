@@ -32,6 +32,7 @@ public class PrimarySurveyController : MonoBehaviour
         {
             if (PrimarySurvey[i] && !isAllDoneBool)
             {
+                Debug.Log("Text " + i + " is true");
                 character[i].color = Color.white;
                 isInOrder(i);
                 isAllDoneBool = isAllDone();
@@ -55,7 +56,7 @@ public class PrimarySurveyController : MonoBehaviour
 
     private bool isAllDone()
     {
-        if (PrimarySurvey[0] && PrimarySurvey[1] && PrimarySurvey[2] && PrimarySurvey[3] && PrimarySurvey[4] && PrimarySurvey[5])
+        if (character[0].color == Color.white && character[1].color == Color.white && character[2].color == Color.white && character[3].color == Color.white && character[4].color == Color.white && character[5].color == Color.white)
         {
             bonusScore += 1000;
             return true;

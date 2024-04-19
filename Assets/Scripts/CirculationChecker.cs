@@ -9,6 +9,8 @@ public class CirculationChecker : MonoBehaviour
     public bool[] bools;
     public bool allTrue;
 
+    private bool isFirst = true;
+
     void Start()
     {
         bools = new bool[BodyParts.Length];
@@ -21,29 +23,33 @@ public class CirculationChecker : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        for (int i = 0; i < BodyParts.Length; i++)
+        if (isFirst)
         {
-            if (BodyParts[i].activeSelf)
+            for (int i = 0; i < BodyParts.Length; i++)
             {
-                bools[i] = true;
+                if (BodyParts[i].activeSelf)
+                {
+                    bools[i] = true;
+                }
             }
-        }
 
-        allTrue = true;
+            allTrue = true;
 
-        foreach (bool b in bools)
-        {
-            if (!b)
+            foreach (bool b in bools)
             {
-                allTrue = false;
-                break;
+                if (!b)
+                {
+                    allTrue = false;
+                    break;
+                }
             }
-        }
 
-        if (allTrue)
-        {
-            Debug.Log("All body parts are active");
-            pcs.booleanController(5);
+            if (allTrue)
+            {
+                Debug.Log("All body parts are active");
+                pcs.booleanController(5);
+                isFirst = false;
+            }
         }
     }
 }
