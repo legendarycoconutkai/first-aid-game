@@ -38,24 +38,42 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: background
-    uniqueID: 3216000873
-    locked: 0
-  - name: body
-    uniqueID: 3864164675
-    locked: 0
-  - name: frame
-    uniqueID: 190045089
-    locked: 0
-  - name: border
-    uniqueID: 1999003857
-    locked: 0
-  - name: phone
-    uniqueID: 2897587571
-    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: number
+  - name: Background
+    uniqueID: 3216000873
+    locked: 0
+  - name: People
+    uniqueID: 3864164675
+    locked: 0
+  - name: Full Body
+    uniqueID: 2897587571
+    locked: 0
+  - name: Inventory
+    uniqueID: 190045089
+    locked: 0
+  - name: First Aid Kit
+    uniqueID: 1999003857
+    locked: 0
+  - name: Manual
     uniqueID: 2701009669
+    locked: 0
+  - name: Phone
+    uniqueID: 1155010605
+    locked: 0
+  - name: Guide
+    uniqueID: 3136549851
+    locked: 0
+  - name: Score
+    uniqueID: 47343847
+    locked: 0
+  - name: Done Button
+    uniqueID: 3555784547
+    locked: 0
+  - name: Score and Leaderboard
+    uniqueID: 2975374861
+    locked: 0
+  - name: Language Button
+    uniqueID: 3116657135
     locked: 0
