@@ -68,7 +68,7 @@ TagManager:
   - name: Score
     uniqueID: 47343847
     locked: 0
-  - name: Done Button
+  - name: Important UI
     uniqueID: 3555784547
     locked: 0
   - name: Score and Leaderboard
