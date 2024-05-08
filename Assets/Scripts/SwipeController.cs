@@ -23,6 +23,7 @@ public class SwipeController : MonoBehaviour
             {
                 //save began touch 2d point
                 firstPressPos = new Vector2(t.position.x, t.position.y);
+                Debug.Log("First Press Position: " + firstPressPos);
             }
             if (t.phase == TouchPhase.Ended)
             {
@@ -36,14 +37,28 @@ public class SwipeController : MonoBehaviour
                 currentSwipe.Normalize();
 
                 //swipe upwards
-                if (currentSwipe.y > 0 && currentSwipe.x > -0.5f && currentSwipe.x < 0.5f)
+                if (currentSwipe.y > 0.3 && currentSwipe.x > -0.5f && currentSwipe.x < 0.5f)
                 {
-                    Up();
+                    if (firstPressPos.x > 420 && firstPressPos.x < 1490 && firstPressPos.y > 0 && firstPressPos.y < 210)
+                    {
+                        OpenInventory();
+                    }
+                    else
+                    {
+                        Debug.Log("Not in area");
+                    }
                 }
                 //swipe down
-                if (currentSwipe.y < 0 && currentSwipe.x > -0.5f && currentSwipe.x < 0.5f)
+                if (currentSwipe.y < -0.3 && currentSwipe.x > -0.5f && currentSwipe.x < 0.5f)
                 {
-                    Down();
+                    if (firstPressPos.x > 420 && firstPressPos.x < 1490 && firstPressPos.y > 0 && firstPressPos.y < 210)
+                    {
+                        CloseInventory();
+                    }
+                    else
+                    {
+                        Debug.Log("Not in area");
+                    }
                 }
                 //swipe left
                 if (currentSwipe.x < 0 && currentSwipe.y > -0.5f && currentSwipe.y < 0.5f)
@@ -65,6 +80,7 @@ public class SwipeController : MonoBehaviour
         {
             //save began touch 2d point
             firstPressPos = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+            Debug.Log("First Press Position: " + firstPressPos);
         }
         if (Input.GetMouseButtonUp(0))
         {
@@ -78,14 +94,28 @@ public class SwipeController : MonoBehaviour
             currentSwipe.Normalize();
 
             //swipe upwards
-            if (currentSwipe.y > 0 && currentSwipe.x > -0.5f && currentSwipe.x < 0.5f)
+            if (currentSwipe.y > 0.3 && currentSwipe.x > -0.5f && currentSwipe.x < 0.5f)
             {
-                Up();
+                if (firstPressPos.x > 420 && firstPressPos.x < 1490 && firstPressPos.y > 0 && firstPressPos.y < 210)
+                {
+                    OpenInventory();
+                }
+                else
+                {
+                    Debug.Log("Not in area");
+                }
             }
             //swipe down
-            if (currentSwipe.y < 0 && currentSwipe.x > -0.5f && currentSwipe.x < 0.5f)
+            if (currentSwipe.y < -0.3 && currentSwipe.x > -0.5f && currentSwipe.x < 0.5f)
             {
-                Down();
+                if (firstPressPos.x > 420 && firstPressPos.x < 1490 && firstPressPos.y > 0 && firstPressPos.y < 210)
+                {
+                    CloseInventory();
+                }
+                else
+                {
+                    Debug.Log("Not in area");
+                }
             }
             //swipe left
             if (currentSwipe.x < 0 && currentSwipe.y > -0.5f && currentSwipe.y < 0.5f)
@@ -100,12 +130,12 @@ public class SwipeController : MonoBehaviour
         }
     }
 
-    private void Up()
+    private void OpenInventory()
     {
         Inventory.SetActive(true);
     }
 
-    private void Down()
+    private void CloseInventory()
     {
         Inventory.SetActive(false);
     }
