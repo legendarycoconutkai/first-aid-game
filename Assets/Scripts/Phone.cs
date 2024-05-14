@@ -25,6 +25,7 @@ public class Phone : MonoBehaviour
     public GameObject FailedCallInterface;
 
     public PrimarySurveyController psc;
+    public GuideTextLanguageManager gtlm;
 
     public void b1()
     {
@@ -78,6 +79,7 @@ public class Phone : MonoBehaviour
             CallInterface.SetActive(false);
             CallingInterface.SetActive(true);
             psc.booleanController(2);
+            gtlm.booleanController(2);
         }
         else
         {

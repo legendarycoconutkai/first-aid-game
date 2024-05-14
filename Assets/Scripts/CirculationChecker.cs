@@ -6,6 +6,7 @@ public class CirculationChecker : MonoBehaviour
 {
     public GameObject[] BodyParts;
     public PrimarySurveyController pcs;
+    public GuideTextLanguageManager gtlm;
     public bool[] bools;
     public bool allTrue;
 
@@ -48,6 +49,7 @@ public class CirculationChecker : MonoBehaviour
             {
                 Debug.Log("All body parts are active");
                 pcs.booleanController(5);
+                gtlm.booleanController(5);
                 isFirst = false;
             }
         }
