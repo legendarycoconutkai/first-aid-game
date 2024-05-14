@@ -12666,6 +12666,7 @@ GameObject:
   - component: {fileID: 670453809}
   - component: {fileID: 670453811}
   - component: {fileID: 670453810}
+  - component: {fileID: 670453812}
   m_Layer: 5
   m_Name: calling
   m_TagString: Untagged
@@ -12712,7 +12713,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Please try again
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -12789,6 +12790,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 670453808}
   m_CullTransparentMesh: 1
+--- !u!114 &670453812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670453808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6498168c8bcd84e458e6987004c69592, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  englishText: Please try again
+  indoText: Silakan coba lagi
+  text: {fileID: 670453810}
 --- !u!1 &673268166
 GameObject:
   m_ObjectHideFlags: 0
@@ -12968,6 +12984,7 @@ GameObject:
   - component: {fileID: 718493647}
   - component: {fileID: 718493649}
   - component: {fileID: 718493648}
+  - component: {fileID: 718493650}
   m_Layer: 5
   m_Name: 112text
   m_TagString: Untagged
@@ -13014,7 +13031,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Failed to Connect
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -13091,6 +13108,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 718493646}
   m_CullTransparentMesh: 1
+--- !u!114 &718493650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718493646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6498168c8bcd84e458e6987004c69592, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  englishText: Failed to Connect
+  indoText: Gagal Terhubung
+  text: {fileID: 718493648}
 --- !u!1 &723086636
 GameObject:
   m_ObjectHideFlags: 0
@@ -28622,6 +28654,7 @@ GameObject:
   - component: {fileID: 1619918639}
   - component: {fileID: 1619918641}
   - component: {fileID: 1619918640}
+  - component: {fileID: 1619918642}
   m_Layer: 5
   m_Name: calling
   m_TagString: Untagged
@@ -28668,7 +28701,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Calling...
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -28745,6 +28778,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1619918638}
   m_CullTransparentMesh: 1
+--- !u!114 &1619918642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1619918638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6498168c8bcd84e458e6987004c69592, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  englishText: Calling...
+  indoText: ' Panggilan...'
+  text: {fileID: 1619918640}
 --- !u!1 &1627137899
 GameObject:
   m_ObjectHideFlags: 0
