@@ -94,6 +94,27 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
+  - name: EyeClose
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 116
+      y: 519
+      width: 64
+      height: 27
+    spriteID: 7b70dcebdb863534eb54347a5bcab6c8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 116, y: 519}
+    spritePosition: {x: 452, y: 870}
   - name: Head
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -5248,6 +5269,16 @@ ScriptedImporter:
   resliceFromLayer: 0
   mosaicPSDLayers: []
   rigPSDLayers:
+  - name: EyeClose
+    spriteName: EyeClose
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7b70dcebdb863534eb54347a5bcab6c8
+    layerID: 40
+    mosaicPosition: {x: 116, y: 519}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Head
     spriteName: Head
     isGroup: 0
