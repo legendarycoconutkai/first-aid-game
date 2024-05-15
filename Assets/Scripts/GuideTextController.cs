@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GuideTextController : MonoBehaviour
 {
-    float targetTime = 1.0f;
+    public float targetTime;
     private void OnEnable()
     {
         targetTime = 1.0f;

@@ -53,6 +53,12 @@ TagManager:
   - name: Inventory
     uniqueID: 190045089
     locked: 0
+  - name: Score
+    uniqueID: 47343847
+    locked: 0
+  - name: Done Button
+    uniqueID: 3555784547
+    locked: 0
   - name: First Aid Kit
     uniqueID: 1999003857
     locked: 0
@@ -64,12 +70,6 @@ TagManager:
     locked: 0
   - name: Guide
     uniqueID: 3136549851
-    locked: 0
-  - name: Score
-    uniqueID: 47343847
-    locked: 0
-  - name: Important UI
-    uniqueID: 3555784547
     locked: 0
   - name: Score and Leaderboard
     uniqueID: 2975374861

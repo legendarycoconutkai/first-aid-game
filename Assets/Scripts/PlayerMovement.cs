@@ -26,7 +26,7 @@ public class PlayerMovement : MonoBehaviour
         {
             Vector2 firstPressPos = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
 
-            if (!(firstPressPos.x > 420 && firstPressPos.x < 1490 && firstPressPos.y > 0 && firstPressPos.y < 210))
+            if (firstPressPos.y > 175 && firstPressPos.y < 930)
             {
                 Vector3 targetPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                 targetPosition.x = Mathf.Round(targetPosition.x * 100f) / 100f;
@@ -41,7 +41,7 @@ public class PlayerMovement : MonoBehaviour
             Touch t = Input.GetTouch(0);
             Vector2 firstPressPos = new Vector2(t.position.x, t.position.y);
 
-            if (!(firstPressPos.x > 420 && firstPressPos.x < 1490 && firstPressPos.y > 0 && firstPressPos.y < 210))
+            if (firstPressPos.y > 175 && firstPressPos.y < 930)
             {
                 Vector3 targetPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                 targetPosition.x = Mathf.Round(targetPosition.x * 100f) / 100f;
