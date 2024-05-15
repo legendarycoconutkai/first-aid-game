@@ -2417,8 +2417,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1397379725
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -1000603436, guid: b1590d1868008924b861860fb761cfd6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9713,10 +9713,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 493381091}
+  panel: {fileID: 1499056265}
+  doneButton: {fileID: 526048367}
   buttons:
   - {fileID: 1487575543}
   - {fileID: 396176932}
   - {fileID: 747266698}
+  psc: {fileID: 77051374}
+  gtlm: {fileID: 1808988301}
   delay: 0.1
 --- !u!1 &498370215
 GameObject:
@@ -29020,7 +29024,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: -1397379725
-  m_SortingOrder: 10
+  m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!114 &1490696862
 MonoBehaviour:
@@ -32325,18 +32329,6 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 29603733}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 526048367}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6

@@ -6,19 +6,27 @@ using UnityEngine;
 public class TypewriterEffectPhone : MonoBehaviour
 {
     public TextMeshProUGUI text;
+    public GameObject panel;
+    public GameObject doneButton;
     public GameObject[] buttons;
+    public PrimarySurveyController psc;
+    public GuideTextLanguageManager gtlm;
+
     private string[][] engText = new string[][] {
     new string[] {"Road Traffic Accident", "Electrical Accident", "Workplace Accident"},
     new string[] {"Plantation", "Factory", "Highway"},
     new string[] {"1", "2", "3"}
     };
+
     private string[][] indoText = new string[][] {
     new string[] {"Road Traffic Accident", "Electrical Accident", "Workplace Accident"},
     new string[] {"Plantation", "Factory", "Highway"},
     new string[] {"1", "2", "3"}
     };
+
     public float delay = 0.1f;
     private int i;
+
     private void OnEnable()
     {
         text.text = "";
@@ -33,20 +41,13 @@ public class TypewriterEffectPhone : MonoBehaviour
         if (isEng)
         {
             StartCoroutine(Typewriter("\"There is a "));
-            for (int j = 0; j < engText[i].Length; j++)
-            {
-                buttons[j].GetComponentInChildren<TextMeshProUGUI>().text = engText[i][j];
-            }
+            generateEnglishButton();
         }
         else
         {
             StartCoroutine(Typewriter("\"There is a "));
-            for (int j = 0; j < indoText[i].Length; j++)
-            {
-                buttons[j].GetComponentInChildren<TextMeshProUGUI>().text = indoText[i][j];
-            }
+            generateIndoButton();
         }
-
         i++;
     }
 
@@ -59,58 +60,47 @@ public class TypewriterEffectPhone : MonoBehaviour
             if (i == 1)
             {
                 StartCoroutine(Typewriter(t + " at "));
-                for (int j = 0; j < engText[i].Length; j++)
-                {
-                    buttons[j].GetComponentInChildren<TextMeshProUGUI>().text = engText[i][j];
-                }
+                generateEnglishButton();
             }
 
             if (i == 2)
             {
                 StartCoroutine(Typewriter(t + " with a total of "));
-                for (int j = 0; j < engText[i].Length; j++)
-                {
-                    buttons[j].GetComponentInChildren<TextMeshProUGUI>().text = engText[i][j];
-                }
+                generateEnglishButton();
             }  
 
             if (i == 3)
             {
                 StartCoroutine(Typewriter(t + " casualty(s)."));
+                panel.SetActive(false);
+                doneButton.SetActive(true);
+                psc.booleanController(2);
+                gtlm.booleanController(2);
             }
-
         }
         else
         {
             if (i == 1)
             {
                 StartCoroutine(Typewriter(t + " di "));
-                for (int j = 0; j < indoText[i].Length; j++)
-                {
-                    buttons[j].GetComponentInChildren<TextMeshProUGUI>().text = indoText[i][j];
-                }
+                generateIndoButton();
             }
 
             if (i == 2)
             {
                 StartCoroutine(Typewriter(t + " dengan total "));
-                for (int j = 0; j < indoText[i].Length; j++)
-                {
-                    buttons[j].GetComponentInChildren<TextMeshProUGUI>().text = indoText[i][j];
-                }
+                generateIndoButton();
             }
 
             if (i == 3)
             {
                 StartCoroutine(Typewriter(t + " orang."));
-            }
-
-            for (int j = 0; j < indoText[i].Length; j++)
-            {
-                buttons[j].GetComponentInChildren<TextMeshProUGUI>().text = indoText[i][j];
+                panel.SetActive(false);
+                doneButton.SetActive(true);
+                psc.booleanController(2);
+                gtlm.booleanController(2);
             }
         }
-
         i++;
     }
 
@@ -120,6 +110,22 @@ public class TypewriterEffectPhone : MonoBehaviour
         {
             text.text += c;
             yield return new WaitForSeconds(delay);
+        }
+    }
+
+    private void generateEnglishButton()
+    {
+        for (int j = 0; j < engText[i].Length; j++)
+        {
+            buttons[j].GetComponentInChildren<TextMeshProUGUI>().text = engText[i][j];
+        }
+    }
+
+    private void generateIndoButton()
+    {
+        for (int j = 0; j < engText[i].Length; j++)
+        {
+            buttons[j].GetComponentInChildren<TextMeshProUGUI>().text = engText[i][j];
         }
     }
 }
