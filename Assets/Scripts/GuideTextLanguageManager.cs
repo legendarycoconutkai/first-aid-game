@@ -6,7 +6,7 @@ using UnityEngine;
 public class GuideTextLanguageManager : MonoBehaviour
 {
     string[] englishText = new string[] { "Danger", "Response", "Send for help", "Airway", "Breathing", "Circulation" };
-    string[] indoText = new string[] { "Danger\n(Bahaya)", "Response\n(Respons)", "Send for help\n(Panggilan Untuk Bantuan)", "Airway\n(Saluran Udara)", "Breathing\n(Pernafasan)", "Circulation\n(Sirkulasi)" };
+    string[] indoText = new string[] { "Danger\n(Bahaya)", "Response\n(Respons)", "Send for help\n(Panggilan Untuk Bantuan)", "Airway\n(Jalan Napas)", "Breathing\n(Pernapasan)", "Circulation\n(Sirkulasi)" };
     public GameObject textObject;
     public GameObject textBg;
     public TextMeshProUGUI text;
