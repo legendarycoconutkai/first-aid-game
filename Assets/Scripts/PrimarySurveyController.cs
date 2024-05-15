@@ -32,7 +32,7 @@ public class PrimarySurveyController : MonoBehaviour
         {
             if (PrimarySurvey[i] && !isAllDoneBool)
             {
-                Debug.Log("Text " + i + " is true");
+                //Debug.Log("Text " + i + " is true");
                 character[i].color = Color.white;
                 isInOrder(i);
                 isAllDoneBool = isAllDone();

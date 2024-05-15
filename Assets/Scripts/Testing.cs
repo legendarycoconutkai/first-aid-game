@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class Testing : MonoBehaviour
 {
-    public void Clicked(int no)
+    public TextMeshProUGUI text;
+    public void Clicked(string t)
     {
-        Debug.Log("Clicked" + no);
+        text.text += t;
     }
 }

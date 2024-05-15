@@ -24,9 +24,6 @@ public class Phone : MonoBehaviour
     public GameObject CallingInterface;
     public GameObject FailedCallInterface;
 
-    public PrimarySurveyController psc;
-    public GuideTextLanguageManager gtlm;
-
     public void b1()
     {
         numbers.text = numbers.text + "1";
@@ -78,8 +75,6 @@ public class Phone : MonoBehaviour
         {
             CallInterface.SetActive(false);
             CallingInterface.SetActive(true);
-            psc.booleanController(2);
-            gtlm.booleanController(2);
         }
         else
         {
