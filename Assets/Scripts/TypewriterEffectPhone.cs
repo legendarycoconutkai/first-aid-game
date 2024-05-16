@@ -9,6 +9,7 @@ public class TypewriterEffectPhone : MonoBehaviour
     public GameObject panel;
     public GameObject doneButton;
     public GameObject[] buttons;
+    public GameObject[] buttonsText;
     public PrimarySurveyController psc;
     public GuideTextLanguageManager gtlm;
 
@@ -40,15 +41,14 @@ public class TypewriterEffectPhone : MonoBehaviour
         bool isEng = language.GetComponent<ManualLanguageController>().getLanguage();
         if (isEng)
         {
-            StartCoroutine(Typewriter("\"There is a "));
-            generateEnglishButton();
+            StartCoroutine(Typewriter(("\"There is a "), isEng));
+            generateEmptyButton();
         }
         else
         {
-            StartCoroutine(Typewriter("\"There is a "));
-            generateIndoButton();
+            StartCoroutine(Typewriter(("\"There is a "), isEng));
+            generateEmptyButton();
         }
-        i++;
     }
 
     public void showTextSub(string t)
@@ -59,19 +59,19 @@ public class TypewriterEffectPhone : MonoBehaviour
         {
             if (i == 1)
             {
-                StartCoroutine(Typewriter(t + " at "));
-                generateEnglishButton();
+                StartCoroutine(Typewriter((t + " at "), isEng));
+                generateEmptyButton();
             }
 
             if (i == 2)
             {
-                StartCoroutine(Typewriter(t + " with a total of "));
-                generateEnglishButton();
+                StartCoroutine(Typewriter((t + " with a total of "), isEng));
+                generateEmptyButton();
             }  
 
             if (i == 3)
             {
-                StartCoroutine(Typewriter(t + " casualty(s)."));
+                StartCoroutine(Typewriter((t + " casualty(s).\""), isEng));
                 panel.SetActive(false);
                 doneButton.SetActive(true);
                 psc.booleanController(2);
@@ -82,39 +82,50 @@ public class TypewriterEffectPhone : MonoBehaviour
         {
             if (i == 1)
             {
-                StartCoroutine(Typewriter(t + " di "));
-                generateIndoButton();
+                StartCoroutine(Typewriter((t + " di "), isEng));
+                generateEmptyButton();
             }
 
             if (i == 2)
             {
-                StartCoroutine(Typewriter(t + " dengan total "));
-                generateIndoButton();
+                StartCoroutine(Typewriter((t + " dengan total "), isEng));
+                generateEmptyButton();
             }
 
             if (i == 3)
             {
-                StartCoroutine(Typewriter(t + " orang."));
+                StartCoroutine(Typewriter((t + " orang.\""), isEng));
                 panel.SetActive(false);
                 doneButton.SetActive(true);
                 psc.booleanController(2);
                 gtlm.booleanController(2);
             }
         }
-        i++;
     }
 
-    IEnumerator Typewriter(string t)
+    IEnumerator Typewriter(string t, bool isEng)
     {
         foreach (char c in t)
         {
             text.text += c;
             yield return new WaitForSeconds(delay);
         }
+
+        if (isEng)
+        {
+            generateEnglishButton();
+            i++;
+        }
+        else
+        {
+            generateIndoButton();
+            i++;
+        }
     }
 
     private void generateEnglishButton()
     {
+        activateButtonText();
         for (int j = 0; j < engText[i].Length; j++)
         {
             buttons[j].GetComponentInChildren<TextMeshProUGUI>().text = engText[i][j];
@@ -123,9 +134,26 @@ public class TypewriterEffectPhone : MonoBehaviour
 
     private void generateIndoButton()
     {
+        activateButtonText();
         for (int j = 0; j < engText[i].Length; j++)
         {
             buttons[j].GetComponentInChildren<TextMeshProUGUI>().text = engText[i][j];
+        }
+    }
+
+    private void generateEmptyButton()
+    {
+        for (int j = 0; j < buttons.Length; j++)
+        {
+            buttonsText[j].SetActive(false);
+        }
+    }
+
+    private void activateButtonText()
+    {
+        for (int j = 0; j < buttons.Length; j++)
+        {
+            buttonsText[j].SetActive(true);
         }
     }
 }

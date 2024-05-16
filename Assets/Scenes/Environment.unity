@@ -9721,6 +9721,10 @@ MonoBehaviour:
   - {fileID: 1487575543}
   - {fileID: 396176932}
   - {fileID: 747266698}
+  buttonsText:
+  - {fileID: 667627098}
+  - {fileID: 1446646316}
+  - {fileID: 975607571}
   psc: {fileID: 77051374}
   gtlm: {fileID: 1808988301}
   delay: 0.1
@@ -29238,7 +29242,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 1
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 175816345}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
