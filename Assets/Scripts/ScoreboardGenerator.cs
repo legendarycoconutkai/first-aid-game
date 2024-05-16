@@ -10,19 +10,10 @@ public class ScoreboardGenerator : MonoBehaviour
     public ScoreController sc;
     public PrimarySurveyController psc;
     public LeaderboardController lbc;
-    void Start()
+    void OnEnable()
     {
-        if (lbc == null)
-        {
-            Debug.Log("LeaderboardController reference is null!");
-        }
-      
         scoreText.text = sc.getScore().ToString() + "\r\n" + psc.getBonusScore().ToString() + "\r\n333";
 
         totalScoreText.text = lbc.getTotalScore().ToString() + "\r\nTOP" + lbc.getRanking().ToString() + "\r\n" + lbc.getGrade().ToString();
-
-       
     }
-
-    
 }

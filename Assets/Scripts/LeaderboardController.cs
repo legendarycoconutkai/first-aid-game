@@ -57,7 +57,7 @@ public class LeaderboardController : MonoBehaviour
         determineRanking();
         determineGrade();
 
-        lbp.SetActive(true);
+        StartCoroutine(activatelbp());
     }
 
     public void addUserScore(int userScore, string player)
@@ -126,5 +126,11 @@ public class LeaderboardController : MonoBehaviour
     public List<int> getScoreList()
     {
         return scoreList;
+    }
+
+    IEnumerator activatelbp()
+    {
+        yield return new WaitForSeconds(0.1f);
+        lbp.SetActive(true);
     }
 }
