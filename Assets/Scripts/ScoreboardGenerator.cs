@@ -9,18 +9,20 @@ public class ScoreboardGenerator : MonoBehaviour
     public TextMeshProUGUI totalScoreText;
     public ScoreController sc;
     public PrimarySurveyController psc;
-
-    private int totalScore; 
-
+    public LeaderboardController lbc;
     void Start()
     {
+        if (lbc == null)
+        {
+            Debug.Log("LeaderboardController reference is null!");
+        }
+      
         scoreText.text = sc.getScore().ToString() + "\r\n" + psc.getBonusScore().ToString() + "\r\n333";
-        totalScore = sc.getScore() + psc.getBonusScore() + 333;
-        totalScoreText.text = totalScore.ToString() + "\r\nTOP 1\r\nA";
+
+        totalScoreText.text = lbc.getTotalScore().ToString() + "\r\nTOP" + lbc.getRanking().ToString() + "\r\n" + lbc.getGrade().ToString();
+
+       
     }
 
-    public int getTotalScore()
-    {
-        return totalScore;
-    }
+    
 }
