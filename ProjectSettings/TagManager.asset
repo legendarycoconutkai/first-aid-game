@@ -77,3 +77,6 @@ TagManager:
   - name: Language Button
     uniqueID: 3116657135
     locked: 0
+  - name: Tutorial
+    uniqueID: 3208052229
+    locked: 0
