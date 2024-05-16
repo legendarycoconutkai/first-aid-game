@@ -45,7 +45,7 @@ public class SwipeController : MonoBehaviour
                     }
                     else
                     {
-                        Debug.Log("Not in area");
+                        //Debug.Log("Not in area");
                     }
                 }
                 //swipe down
@@ -57,18 +57,18 @@ public class SwipeController : MonoBehaviour
                     }
                     else
                     {
-                        Debug.Log("Not in area");
+                        //Debug.Log("Not in area");
                     }
                 }
                 //swipe left
                 if (currentSwipe.x < 0 && currentSwipe.y > -0.5f && currentSwipe.y < 0.5f)
                 {
-                    Debug.Log("left swipe");
+                    //Debug.Log("left swipe");
                 }
                 //swipe right
                 if (currentSwipe.x > 0 && currentSwipe.y > -0.5f && currentSwipe.y < 0.5f)
                 {
-                    Debug.Log("right swipe");
+                    //Debug.Log("right swipe");
                 }
             }
         }
@@ -102,7 +102,7 @@ public class SwipeController : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log("Not in area");
+                    //Debug.Log("Not in area");
                 }
             }
             //swipe down
@@ -114,18 +114,18 @@ public class SwipeController : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log("Not in area");
+                    //Debug.Log("Not in area");
                 }
             }
             //swipe left
             if (currentSwipe.x < 0 && currentSwipe.y > -0.5f && currentSwipe.y < 0.5f)
             {
-                Debug.Log("left swipe");
+                //Debug.Log("left swipe");
             }
             //swipe right
             if (currentSwipe.x > 0 && currentSwipe.y > -0.5f && currentSwipe.y < 0.5f)
             {
-                Debug.Log("right swipe");
+                //Debug.Log("right swipe");
             }
         }
     }
