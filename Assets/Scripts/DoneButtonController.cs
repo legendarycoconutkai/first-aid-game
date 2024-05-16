@@ -25,6 +25,7 @@ public class DoneButtonController : MonoBehaviour
         if (targetTime <= 0.0f)
         {
             timerEnded();
+            this.enabled = false;
         }
 
         if (elapsedTime >= 1.0f)
