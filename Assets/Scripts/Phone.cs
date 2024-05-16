@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using static UnityEngine.Rendering.DebugUI;
 
 
 public class Phone : MonoBehaviour
@@ -23,6 +24,7 @@ public class Phone : MonoBehaviour
     public GameObject CallInterface;
     public GameObject CallingInterface;
     public GameObject FailedCallInterface;
+    public GameObject panel;
 
     public void b1()
     {
@@ -75,6 +77,7 @@ public class Phone : MonoBehaviour
         {
             CallInterface.SetActive(false);
             CallingInterface.SetActive(true);
+            panel.SetActive(true);
         }
         else
         {
