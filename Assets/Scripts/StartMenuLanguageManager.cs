@@ -7,7 +7,7 @@ public class StartMenuLanguageManager : MonoBehaviour
 {
     public string englishText;
     public string indoText;
-    public TextMeshProUGUI text;
+    //public TextMeshProUGUI text;
 
     void Update()
     {
@@ -15,11 +15,11 @@ public class StartMenuLanguageManager : MonoBehaviour
         bool isEng = language.GetComponent<ManualLanguageController>().getLanguage();
         if (isEng)
         {
-            text.text = englishText;
+            this.GetComponentInChildren<TextMeshProUGUI>().text = englishText;
         }
         else
         {
-            text.text = indoText;
+            this.GetComponentInChildren<TextMeshProUGUI>().text = indoText;
         }
     }
 }
