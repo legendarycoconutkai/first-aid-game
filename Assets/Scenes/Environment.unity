@@ -3842,7 +3842,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: 1234567890123456789012345678901234567890123456789012345678901234
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3931,7 +3931,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6469dd8e5535a14788ddb0daf0481bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 179251693}
+  displayText: {fileID: 0}
+  nextButton: {fileID: 0}
 --- !u!1 &184455009
 GameObject:
   m_ObjectHideFlags: 0
@@ -14987,6 +14988,7 @@ MonoBehaviour:
   CallInterface: {fileID: 1470927357}
   CallingInterface: {fileID: 1039468441}
   FailedCallInterface: {fileID: 500247905}
+  panel: {fileID: 0}
 --- !u!1 &732732931
 GameObject:
   m_ObjectHideFlags: 0
