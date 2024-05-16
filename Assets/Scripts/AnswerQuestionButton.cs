@@ -9,6 +9,10 @@ public class AnswerQuestionButton : MonoBehaviour
     public TypewriterEffectPhone tep;
     public void clicked()
     {
-        tep.showTextSub(t.text);
+        if (t.IsActive())
+        {
+            tep.showTextSub(t.text);
+        }
+
     }
 }

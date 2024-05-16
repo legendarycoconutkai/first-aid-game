@@ -18,6 +18,8 @@ public class LeaderboardController : MonoBehaviour
     public ScoreController sc;
     public PrimarySurveyController psc;
 
+    public GameObject lbp;
+
 
     void Awake()
     {
@@ -53,6 +55,7 @@ public class LeaderboardController : MonoBehaviour
         determineRanking();
         determineGrade();
 
+        lbp.SetActive(true);
     }
 
     public void addUserScore(int userScore, string player)
