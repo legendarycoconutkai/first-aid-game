@@ -20,8 +20,8 @@ public class TypewriterEffectPhone : MonoBehaviour
     };
 
     private string[][] indoText = new string[][] {
-    new string[] {"Road Traffic Accident", "Electrical Accident", "Workplace Accident"},
-    new string[] {"Plantation", "Factory", "Highway"},
+    new string[] { "Kecelakaan Lalu Lintas Jalan", "Kecelakaan Listrik", "Kecelakaan di Tempat Kerja"},
+    new string[] { "Perkebunan", "Kilang", "Jalan Raya"},
     new string[] {"1", "2", "3"}
     };
 
@@ -126,18 +126,24 @@ public class TypewriterEffectPhone : MonoBehaviour
     private void generateEnglishButton()
     {
         activateButtonText();
-        for (int j = 0; j < engText[i].Length; j++)
+        if (i < 3)
         {
-            buttons[j].GetComponentInChildren<TextMeshProUGUI>().text = engText[i][j];
+            for (int j = 0; j < engText[i].Length; j++)
+            {
+                buttons[j].GetComponentInChildren<TextMeshProUGUI>().text = engText[i][j];
+            }
         }
     }
 
     private void generateIndoButton()
     {
         activateButtonText();
-        for (int j = 0; j < engText[i].Length; j++)
+        if (i < 3)
         {
-            buttons[j].GetComponentInChildren<TextMeshProUGUI>().text = engText[i][j];
+            for (int j = 0; j < indoText[i].Length; j++)
+            {
+                buttons[j].GetComponentInChildren<TextMeshProUGUI>().text = indoText[i][j];
+            }
         }
     }
 

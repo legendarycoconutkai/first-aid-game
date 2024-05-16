@@ -29,9 +29,11 @@ public class LeaderboardController : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(this.gameObject);
         }
-        else
+        else if (Instance != this)
         {
-            Destroy(this.gameObject);
+            Destroy(Instance.gameObject);
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
         }
     }
 
