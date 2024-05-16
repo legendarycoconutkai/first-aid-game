@@ -13,6 +13,7 @@ public class MovementCam : MonoBehaviour
     [SerializeField]
     private SpriteRenderer bgRenderer;
 
+
     private float bgMinX, bgMaxX, bgMinY, bgMaxY;
 
     private Vector3 dragOrigin;
