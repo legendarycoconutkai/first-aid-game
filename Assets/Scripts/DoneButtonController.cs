@@ -66,4 +66,9 @@ public class DoneButtonController : MonoBehaviour
         float randNormal = mean + sigma * randStdNormal;
         return randNormal;
     }
+
+    public float getTargetTime()
+    {
+        return targetTime;
+    }
 }

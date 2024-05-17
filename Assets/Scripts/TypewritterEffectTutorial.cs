@@ -45,7 +45,7 @@ public class TypewritterEffectTutorial : MonoBehaviour
         {
             int y = Math.Min(partLength, text.Length - currentIndex);
             string t = text.Substring(currentIndex, y);
-            while (t.Length > 0 && t[t.Length - 1] != ' ' && y != text.Length - currentIndex)
+            while (t.Length > 0 && (t[t.Length - 1] != '.' || t[t.Length - 1] != '!' || t[t.Length - 1] != '?') && y != text.Length - currentIndex)
             {
                 y++;
                 t = text.Substring(currentIndex, y);
