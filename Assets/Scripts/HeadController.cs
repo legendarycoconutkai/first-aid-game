@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MouthController : MonoBehaviour
+public class HeadController : MonoBehaviour
 {
     public BoxCollider2D firstBoxCollider;
     public BoxCollider2D secondBoxCollider;
@@ -34,12 +34,12 @@ public class MouthController : MonoBehaviour
             if (initialBoxState == BoxState.First && secondBoxCollider.OverlapPoint(mousePos))
             {
                 //Debug.Log("Mouse down in first box and up in second box");
-                htcl.chinLifted();
+                htcl.headTilted();
             }
             else if (initialBoxState == BoxState.Second && firstBoxCollider.OverlapPoint(mousePos))
             {
-                //Debug.Log("Mouse down in second box and up in first box");
-                htcl.chinNotLifted();
+                //Debug.Log("Mouse down in first box and up in second box");
+                htcl.headNotTilted();
             }
             initialBoxState = BoxState.None;
         }
@@ -67,12 +67,12 @@ public class MouthController : MonoBehaviour
                 if (initialBoxState == BoxState.First && secondBoxCollider.OverlapPoint(touchPos))
                 {
                     //Debug.Log("Mouse down in first box and up in second box");
-                    htcl.chinLifted();
+                    htcl.headTilted();
                 }
                 else if (initialBoxState == BoxState.Second && firstBoxCollider.OverlapPoint(touchPos))
                 {
-                    //Debug.Log("Mouse down in second box and up in first box");
-                    htcl.chinNotLifted();
+                    //Debug.Log("Mouse down in first box and up in second box");
+                    htcl.headNotTilted();
                 }
                 initialBoxState = BoxState.None;
             }

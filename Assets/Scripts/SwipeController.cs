@@ -23,7 +23,7 @@ public class SwipeController : MonoBehaviour
             {
                 //save began touch 2d point
                 firstPressPos = new Vector2(t.position.x, t.position.y);
-                Debug.Log("First Press Position: " + firstPressPos);
+                //Debug.Log("First Press Position: " + firstPressPos);
             }
             if (t.phase == TouchPhase.Ended)
             {
