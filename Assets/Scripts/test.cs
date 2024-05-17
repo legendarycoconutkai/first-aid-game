@@ -75,11 +75,11 @@ public class test : MonoBehaviour
             bool isEng = language.GetComponent<ManualLanguageController>().getLanguage();
             if (isEng)
             {
-                tet.DisplayText("Great! You have checked on David's consciousness. Now, let's check his airway. Is his airway clear? Is there any obstruction? Swipe up at his forehead and swipe down at his chin to straighten his airway. This is called Head Tilt Chin Lift! A professional procedure to check one's airway. Click on A and answer the question to continue.");
+                tet.DisplayText("Great! You have called the ambulance. Now, let's check his airway. Is his airway clear? Is there any obstruction? Swipe up at his forehead and swipe down at his chin to straighten his airway. This is called Head Tilt Chin Lift! A professional procedure to check one's airway. Click on A and answer the question to continue.");
             }
             else
             {
-                tet.DisplayText("Bagus! Anda telah memeriksa kesadaran David. Sekarang, mari kita periksa saluran napasnya. Apakah saluran napasnya jelas? Gesek ke atas di keningnya dan usap ke bawah di dagunya untuk meluruskan jalan napasnya. Ini merupakan Head Tilt Chin Lif (Angkat Kepala Miringkan Dagu)! Prosedur profesional untuk memeriksa jalan napas seseorang. Klik di A dan jawab pertanyaan untuk melanjutkan.");
+                tet.DisplayText("Bagus! Anda telah memanggil ambulans. Sekarang, mari kita periksa saluran napasnya. Apakah saluran napasnya jelas? Gesek ke atas di keningnya dan usap ke bawah di dagunya untuk meluruskan jalan napasnya. Ini merupakan Head Tilt Chin Lif (Angkat Kepala Miringkan Dagu)! Prosedur profesional untuk memeriksa jalan napas seseorang. Klik di A dan jawab pertanyaan untuk melanjutkan.");
             }
             isFirst[2] = false;
         }
