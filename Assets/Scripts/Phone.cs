@@ -73,7 +73,7 @@ public class Phone : MonoBehaviour
     }
     public void callenvent()
     {
-        if (numbers.text == "112")
+        if (numbers.text == "911")
         {
             CallInterface.SetActive(false);
             CallingInterface.SetActive(true);
