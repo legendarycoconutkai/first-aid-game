@@ -16,7 +16,7 @@ public class InfoToBeBroughtOver : MonoBehaviour
         injuries = new Dictionary<string, bool>
         {
             { "LeftArm", false },
-            { "RightArm", false },
+            { "RightArm", true },
             { "LeftLeg", false },
             { "RightLeg", false },
             { "Abdomen", false }
@@ -24,7 +24,7 @@ public class InfoToBeBroughtOver : MonoBehaviour
 
         dangers = new Dictionary<string, bool>
         {
-            { "sickle", false },
+            { "sickle", true },
             { "box", false },
             { "scissors", false }
         };

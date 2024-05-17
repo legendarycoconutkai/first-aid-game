@@ -80,7 +80,7 @@ public class SwipeController : MonoBehaviour
         {
             //save began touch 2d point
             firstPressPos = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
-            //Debug.Log("First Press Position: " + firstPressPos);
+            Debug.Log("First Press Position: " + firstPressPos);
         }
         if (Input.GetMouseButtonUp(0))
         {
