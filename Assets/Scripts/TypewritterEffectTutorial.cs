@@ -28,6 +28,7 @@ public class TypewritterEffectTutorial : MonoBehaviour
     public void DisplayText(string fullText)
     {
         panel.SetActive(true);
+        skipButtonObj.SetActive(true);
         textParts = SplitTextIntoParts(fullText, 81);
         foreach (string number in textParts)
         {
