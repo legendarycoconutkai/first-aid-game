@@ -8680,7 +8680,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21a75a5475d599d4b92a81ed2af1d055, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  englishText: Confrim
+  englishText: Confirm
   indoText: Pasti
 --- !u!1 &1249025467
 GameObject:
@@ -17951,7 +17951,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &8526997723890172494
 MonoBehaviour:
   m_ObjectHideFlags: 0
