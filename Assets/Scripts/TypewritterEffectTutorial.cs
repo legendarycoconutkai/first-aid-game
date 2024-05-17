@@ -29,7 +29,7 @@ public class TypewritterEffectTutorial : MonoBehaviour
     {
         panel.SetActive(true);
         skipButtonObj.SetActive(true);
-        textParts = SplitTextIntoParts(fullText, 81);
+        textParts = SplitTextIntoParts(fullText, 64);
         foreach (string number in textParts)
         {
             Debug.Log(number);
@@ -52,7 +52,7 @@ public class TypewritterEffectTutorial : MonoBehaviour
             string t = text.Substring(currentIndex, y);
             while (t.Length > 0 && t[t.Length - 1] != '.' && y != text.Length - currentIndex)
             {
-               y--;
+               y++;
                 t = text.Substring(currentIndex, y);
             }
             currentIndex += y;
