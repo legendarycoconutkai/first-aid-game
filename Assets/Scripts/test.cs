@@ -20,7 +20,6 @@ public class test : MonoBehaviour
     void Start()
     {
         StartCoroutine(firstTime());
-        targetTime = 15.0f;
     }
 
     private IEnumerator firstTime()
@@ -132,13 +131,13 @@ public class test : MonoBehaviour
         
         if (!isFirst[0] && !isFirst[1] && !isFirst[2] && !isFirst[3] && !isFirst[4] && !isFirst[5] && isDone)
         {
+            targetTime = 15.0f;
             targetTime -= Time.fixedDeltaTime;
 
             if (targetTime <= 0.0f)
             {
                 randomText();
                 Debug.Log("end");
-                targetTime = 15.0f;
             }
         }   
     }
