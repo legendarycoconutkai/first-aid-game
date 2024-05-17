@@ -9,30 +9,34 @@ public class TypewritterEffectTutorial : MonoBehaviour
 {
     public TextMeshProUGUI displayText; // The UI Text component to display the text
     public Button nextButton; // The button to trigger the next part
+    public Button skipButton; // The button to skip the typewriter effect
     public GameObject button;
+    public GameObject skipButtonObj;
     public GameObject panel;
 
     public string[] textParts;
     private int currentPartIndex;
+    private Coroutine typingCoroutine;
 
     void Start()
     {
         nextButton.onClick.AddListener(OnNextButtonClicked);
+        skipButton.onClick.AddListener(OnSkipButtonClicked);
     }
 
     // Call this method with the initial string
     public void DisplayText(string fullText)
     {
         panel.SetActive(true);
-        textParts = SplitTextIntoParts(fullText, 64);
+        textParts = SplitTextIntoParts(fullText, 81);
         foreach (string number in textParts)
         {
-           Debug.Log(number);
+            Debug.Log(number);
         }
         currentPartIndex = 0;
         if (textParts.Length > 0)
         {
-            StartCoroutine(Typewriter(textParts[currentPartIndex]));
+            typingCoroutine = StartCoroutine(Typewriter(textParts[currentPartIndex]));
         }
     }
 
@@ -47,7 +51,7 @@ public class TypewritterEffectTutorial : MonoBehaviour
             string t = text.Substring(currentIndex, y);
             while (t.Length > 0 && t[t.Length - 1] != '.' && y != text.Length - currentIndex)
             {
-                y++;
+               y--;
                 t = text.Substring(currentIndex, y);
             }
             currentIndex += y;
@@ -68,18 +72,31 @@ public class TypewritterEffectTutorial : MonoBehaviour
         button.SetActive(true); // Enable the button after finishing
     }
 
-    // Button click handler
+    // Button click handler for Next button
     private void OnNextButtonClicked()
     {
         button.SetActive(false); // Disable the button to prevent multiple clicks
         currentPartIndex++;
         if (currentPartIndex < textParts.Length)
         {
-            StartCoroutine(Typewriter(textParts[currentPartIndex]));
+            typingCoroutine = StartCoroutine(Typewriter(textParts[currentPartIndex]));
         }
         else
         {
             panel.SetActive(false); // Hide the panel when all parts are displayed
         }
+        skipButtonObj.SetActive(true); // Show the Skip button after clicking Next
+    }
+
+    // Button click handler for Skip button
+    private void OnSkipButtonClicked()
+    {
+        if (typingCoroutine != null)
+        {
+            StopCoroutine(typingCoroutine);
+        }
+        displayText.text = textParts[currentPartIndex]; // Immediately display the full text
+        button.SetActive(true); // Enable the Next button after skipping
+        skipButtonObj.SetActive(false); // Hide the Skip button after skipping
     }
 }
