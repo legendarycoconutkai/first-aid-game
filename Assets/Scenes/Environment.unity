@@ -1980,7 +1980,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4364283332713707974, guid: 05ae486a10f3142438626243527d2e18, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6838093935777163977, guid: 05ae486a10f3142438626243527d2e18, type: 3}
       propertyPath: m_Pivot.x
@@ -2060,6 +2060,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6838093935777163977, guid: 05ae486a10f3142438626243527d2e18, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7093001654520715029, guid: 05ae486a10f3142438626243527d2e18, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8017347734534509112, guid: 05ae486a10f3142438626243527d2e18, type: 3}
@@ -6515,7 +6519,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 82555889}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -9400,7 +9404,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 1334258093}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -30181,7 +30185,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4364283332713707974, guid: 05ae486a10f3142438626243527d2e18, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6838093935777163977, guid: 05ae486a10f3142438626243527d2e18, type: 3}
       propertyPath: m_Pivot.x
@@ -30261,6 +30265,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6838093935777163977, guid: 05ae486a10f3142438626243527d2e18, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7093001654520715029, guid: 05ae486a10f3142438626243527d2e18, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8017347734534509112, guid: 05ae486a10f3142438626243527d2e18, type: 3}
@@ -31417,7 +31425,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4364283332713707974, guid: 05ae486a10f3142438626243527d2e18, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6102338148761591332, guid: 05ae486a10f3142438626243527d2e18, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -31535,6 +31543,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 0ce515f06b6b5cf4eb92663b49c19e84, type: 3}
+    - target: {fileID: 7093001654520715029, guid: 05ae486a10f3142438626243527d2e18, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8017347734534509112, guid: 05ae486a10f3142438626243527d2e18, type: 3}
       propertyPath: m_Name
       value: InventorySlot (3)
@@ -44142,7 +44154,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 1389919910}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
