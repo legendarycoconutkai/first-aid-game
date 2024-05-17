@@ -26,6 +26,11 @@ public class PrimarySurveyController : MonoBehaviour
         updateGuide();
     }
 
+    public bool is_i_done(int i)
+    {
+        return PrimarySurvey[i];
+    }
+
     private void updateGuide()
     {
         for (int i = 0; i < PrimarySurvey.Length; i++)
