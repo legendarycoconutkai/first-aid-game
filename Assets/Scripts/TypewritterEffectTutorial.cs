@@ -52,7 +52,7 @@ public class TypewritterEffectTutorial : MonoBehaviour
             string t = text.Substring(currentIndex, y);
             while (t.Length > 0 && t[t.Length - 1] != '.' && y != text.Length - currentIndex)
             {
-               y++;
+                y++;
                 t = text.Substring(currentIndex, y);
             }
             currentIndex += y;
