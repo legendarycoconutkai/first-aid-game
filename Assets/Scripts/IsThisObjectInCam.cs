@@ -6,7 +6,9 @@ using UnityEngine;
 public class IsThisObjectInCam : MonoBehaviour
 {
     public Transform target;
-    public Camera cam;
+
+    [SerializeField]
+    private Camera cam;
 
     void OnEnable()
     {
