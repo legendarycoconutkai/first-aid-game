@@ -8,7 +8,7 @@ public class IsThisObjectInCam : MonoBehaviour
     public Transform target;
     public Camera cam;
 
-    void Start()
+    void OnEnable()
     {
         cam = GetComponent<Camera>();
     }

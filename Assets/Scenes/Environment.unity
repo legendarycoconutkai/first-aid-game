@@ -15987,7 +15987,7 @@ MonoBehaviour:
   CallInterface: {fileID: 1470927357}
   CallingInterface: {fileID: 1039468441}
   FailedCallInterface: {fileID: 500247905}
-  panel: {fileID: 0}
+  panel: {fileID: 1499056265}
 --- !u!1 &723954665
 GameObject:
   m_ObjectHideFlags: 0
