@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MovementCam : MonoBehaviour
 {
@@ -13,10 +14,14 @@ public class MovementCam : MonoBehaviour
     [SerializeField]
     private SpriteRenderer bgRenderer;
 
+    [SerializeField]
+    private Toggle toggle;
 
     private float bgMinX, bgMaxX, bgMinY, bgMaxY;
 
     private Vector3 dragOrigin;
+
+    private Vector3 oriPos;
 
     private void Awake()
     {
@@ -26,6 +31,7 @@ public class MovementCam : MonoBehaviour
         bgMinY = bgRenderer.transform.position.y - bgRenderer.bounds.size.y / 2f;
         bgMaxY = bgRenderer.transform.position.y + bgRenderer.bounds.size.y / 2f;
 
+        oriPos = ClampCamera(cam.transform.position);
     }
 
     private void Update()
@@ -76,6 +82,15 @@ public class MovementCam : MonoBehaviour
         float newY = Mathf.Clamp(targetPosition.y, minY, maxY);
 
         return new Vector3 (newX, newY, targetPosition.z);
+    }
+
+    public void resetCam()
+    {
+
+        cam.orthographicSize = Mathf.Clamp(5, minCamSize, maxCamSize);
+        cam.transform.position = oriPos;
+        toggle.onValueChanged.Invoke(false);
+        toggle.isOn = false;
     }
 }
 

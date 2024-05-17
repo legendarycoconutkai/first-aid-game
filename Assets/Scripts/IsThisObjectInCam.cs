@@ -2,14 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using static UnityEditor.PlayerSettings;
 
 public class IsThisObjectInCam : MonoBehaviour
 {
     public Transform [] targets;
     public Dictionary<Transform, bool> targetState;
+    public PrimarySurveyController psc;
+    public GuideTextLanguageManager gtlm;
 
     [SerializeField]
     private Camera cam;
+
+    private bool isFirst = true;
 
     void OnEnable()
     {
@@ -43,9 +48,12 @@ public class IsThisObjectInCam : MonoBehaviour
             }
         }
 
-        if (allInView)
+        if (allInView && isFirst)
         {
             Debug.Log("All targets is viewed");
+            psc.booleanController(5);
+            gtlm.booleanController(5);
+            isFirst = false;
         }
     }
 
