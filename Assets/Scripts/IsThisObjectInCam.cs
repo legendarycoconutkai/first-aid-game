@@ -5,7 +5,8 @@ using UnityEngine;
 
 public class IsThisObjectInCam : MonoBehaviour
 {
-    public Transform target;
+    public Transform [] targets;
+    public Dictionary<Transform, bool> targetState;
 
     [SerializeField]
     private Camera cam;
@@ -13,14 +14,48 @@ public class IsThisObjectInCam : MonoBehaviour
     void OnEnable()
     {
         cam = GetComponent<Camera>();
+        
     }
 
+    private void Start()
+    {
+        targetState = new Dictionary<Transform, bool>();
+
+        foreach (Transform target in targets)
+        {
+            targetState[target] = false;
+        }
+    }
     void Update()
     {
+        foreach (Transform target in targets)
+        {
+            CheckObjectInView(target);
+        }
+
+        bool allInView = true;
+        foreach (Transform target in targets)
+        {
+            if (!targetState[target])
+            {
+                allInView = false;
+                break;
+            }
+        }
+
+        if (allInView)
+        {
+            Debug.Log("All targets is viewed");
+        }
+    }
+
+    public void CheckObjectInView(Transform target)
+    {
         Vector3 viewPos = cam.WorldToViewportPoint(target.position);
-        if (viewPos.x > 0 && viewPos.x < 1 && viewPos.y > 0 && viewPos.y < 1)
-            Debug.Log("target is in the camera view!");
-        else
-            Debug.Log("target is not in the camera view!");
+        bool isInView = viewPos.x > 0 && viewPos.x < 1 && viewPos.y > 0 && viewPos.y < 1;
+        if (isInView && !targetState[target]) {
+            targetState[target] = true;
+            Debug.Log("Target is Viewed");
+        }
     }
 }
