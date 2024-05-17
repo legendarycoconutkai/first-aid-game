@@ -6,6 +6,7 @@ using UnityEngine;
 public class ManualLanguageController : MonoBehaviour
 {
     public GameObject[] manual;
+    public GameObject[] helpManual;
     public TextMeshProUGUI text;
 
     private bool isEng = true;
@@ -33,6 +34,19 @@ public class ManualLanguageController : MonoBehaviour
         else
         {
             manual[1].SetActive(true);
+        }
+    }
+
+
+    public void OpenHelpManual()
+    {
+        if (isEng)
+        {
+            helpManual[0].SetActive(true);
+        }
+        else
+        {
+            helpManual[1].SetActive(true);
         }
     }
 
