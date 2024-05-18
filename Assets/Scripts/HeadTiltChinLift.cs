@@ -35,6 +35,7 @@ public class HeadTiltChinLift : MonoBehaviour
     {
         if (isHeadTilted)
         {
+            Debug.Log("Chin lifted when head is tilted");
             OpenMouth2.SetActive(true);
         }
         else
