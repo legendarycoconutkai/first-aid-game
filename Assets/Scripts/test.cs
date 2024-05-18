@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.ExceptionServices;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class test : MonoBehaviour
@@ -10,6 +11,9 @@ public class test : MonoBehaviour
     public GameObject panel;
     public PrimarySurveyController psc;
     public DoneButtonController dbc;
+
+    public GameObject s;
+    public GameObject t;
 
     public bool[] isFirst = new bool[] { true, true, true, true, true, true };
     public bool[] isFirst2 = new bool[] { true, true, true, true, true, true };
@@ -68,10 +72,12 @@ public class test : MonoBehaviour
                 tet.DisplayText("Sekarang saatnya mencari bantuan. David mungkin memerlukan perhatian medis segera. Hubungi bantuan dengan memilih telepon di inventaris Anda dan hubungi 911. Pilih jenis dan lokasi kecelakaan yang sesuai untuk memastikan respons cepat dari layanan darurat. Dalam kehidupan nyata, Anda diharapkan untuk melaporkan lebih banyak mengenai situasinya seperti cederanya dan peralatan medis yang dibutuhkan.");
             }
             isFirst[1] = false;
+            s.SetActive(true);
         }
 
         if (isFirst[2] && psc.is_i_done(2))
         {
+            s.SetActive(false);
             GameObject language = GameObject.Find("Language Button");
             bool isEng = language.GetComponent<ManualLanguageController>().getLanguage();
             if (isEng)
@@ -128,6 +134,7 @@ public class test : MonoBehaviour
                 tet.DisplayText("Alamak! Ada luka sayatan besar di lengan kanan David. Laserasi adalah luka yang terjadi ketika kulit dan jaringan di bawahnya robek atau terpotong, biasanya akibat trauma benda tumpul. Laserasi seringkali tidak teratur dan bergerigi, serta dapat terkontaminasi bakteri dan kotoran dari benda yang menyebabkan luka. Cobalah untuk meninggikan luka di atas jantung Anda agar darah lebih sulit mengalir. Masuk ke inventaris Anda dan klik pada medkit. Klik pada kain kasa dan klik pada David untuk memberikan tekanan langsung. Sekarang kembali ke inventaris Anda dan keluarkan kain kasa untuk membungkus lengan David. Ingat, harus kuat agar pendarahannya bisa dikendalikan.");
             }
             isFirst[5] = false;
+            t.SetActive(true);
         }
         
         if (!isFirst[0] && !isFirst[1] && !isFirst[2] && !isFirst[3] && !isFirst[4] && !isFirst[5] && isDone)
@@ -148,6 +155,7 @@ public class test : MonoBehaviour
     {
         if (!isFirst[0] && !isFirst[1] && !isFirst[2] && !isFirst[3] && !isFirst[4] && !isFirst[5])
         {
+            t.SetActive(false);
             GameObject language = GameObject.Find("Language Button");
             bool isEng = language.GetComponent<ManualLanguageController>().getLanguage();
             if (isEng)
