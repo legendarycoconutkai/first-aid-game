@@ -35895,7 +35895,6 @@ GameObject:
   - component: {fileID: 1498076080}
   - component: {fileID: 1498076079}
   - component: {fileID: 1498076083}
-  - component: {fileID: 1498076084}
   m_Layer: 5
   m_Name: Leaderboard
   m_TagString: Untagged
@@ -36006,27 +36005,6 @@ MonoBehaviour:
   sc: {fileID: 1567626244}
   psc: {fileID: 77051374}
   lbp: {fileID: 1215313871}
---- !u!114 &1498076084
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1498076078}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed042362bbae8d54095c93ab2fd82cec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tet: {fileID: 0}
-  panel: {fileID: 0}
-  psc: {fileID: 0}
-  dbc: {fileID: 0}
-  isFirst: 010101010101
-  isFirst2: 010101010101
-  isDone: 0
-  end: 0
-  targetTime: 0
 --- !u!1 &1498900870
 GameObject:
   m_ObjectHideFlags: 0

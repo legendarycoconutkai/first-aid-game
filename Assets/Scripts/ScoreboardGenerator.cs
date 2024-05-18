@@ -15,5 +15,6 @@ public class ScoreboardGenerator : MonoBehaviour
         scoreText.text = sc.getScore().ToString() + "\r\n" + psc.getBonusScore().ToString() + "\r\n333";
 
         totalScoreText.text = lbc.getTotalScore().ToString() + "\r\nTOP" + lbc.getRanking().ToString() + "\r\n" + lbc.getGrade().ToString();
+      
     }
 }
