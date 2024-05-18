@@ -11,7 +11,7 @@ public class InfoToBeBroughtOver : MonoBehaviour
     public Dictionary<string, bool> injuries;
     public Dictionary<string, bool> dangers;
 
-    private bool isChanged;
+    public bool isChanged;
 
     private void Start()
     {
@@ -101,4 +101,9 @@ public class InfoToBeBroughtOver : MonoBehaviour
     {
         return dangers;
     }
+
+    public bool getIsChanged()
+    {
+        return isChanged;
+    } 
 }
