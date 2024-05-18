@@ -20,14 +20,14 @@ public class SpriteChanger : MonoBehaviour
         injuries = ir.GetComponent<InfoToBeBroughtOver>().getInjuries();
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         currentSprite = 0;
+
         AdminSetting = injuries[injuryName];
     }
 
     // Update is called once per frame
     void Update()
     {
-        ChangeSprite();
-          
+        ChangeSprite();    
     }
 
     public void Change()
@@ -40,17 +40,8 @@ public class SpriteChanger : MonoBehaviour
 
         if (isSpriteChanger && currentSprite < spriteArray.Length)
         {
-            spriteRenderer.sprite = spriteArray[currentSprite];
-            currentSprite++;
-            isSpriteChanger = false;
-            Debug.Log("is Sprite Change to false");
-        }
-
-        else if(AdminSetting && currentSprite < spriteArray.Length )
-        {
             currentSprite++;
             spriteRenderer.sprite = spriteArray[currentSprite];
-            AdminSetting = false;
             isSpriteChanger = false;
             Debug.Log("is Sprite Change to false");
         }
@@ -60,6 +51,15 @@ public class SpriteChanger : MonoBehaviour
             Debug.Log("Requirement not fulfill");
             FirstTime = true;
         }
-            
+
+        else if (AdminSetting && currentSprite < spriteArray.Length)
+        {
+            currentSprite++;
+            spriteRenderer.sprite = spriteArray[currentSprite];
+            AdminSetting = false;
+            isSpriteChanger = false;
+            Debug.Log("is Sprite Change to false");
+        }
+
     }
 }

@@ -48,6 +48,45 @@ public class IKControllerRightSide : MonoBehaviour
             mousePos.z = 0; // Ensure the IK controller stays in the 2D plane
             transform.position = mousePos;
         }
+
+        if (Input.touchCount > 0)
+        {
+            Touch touch = Input.GetTouch(0);
+            Vector3 touchPos = Camera.main.ScreenToWorldPoint(touch.position);
+
+            switch (touch.phase)
+            {
+                case TouchPhase.Began:
+                    Collider2D collider = Physics2D.OverlapPoint(touchPos);
+
+                    if (collider != null && collider.gameObject == gameObject)
+                    {
+                        isDragging = true;
+                        offset = transform.position - touchPos;
+                    }
+                    break;
+
+                case TouchPhase.Ended:
+                case TouchPhase.Canceled:
+                    isDragging = false;
+
+                    // Snap back to original position if moved outside the movable area
+                    if (!IsWithinMoveArea(transform.position))
+                    {
+                        transform.position = originalPosition;
+                    }
+                    break;
+
+                case TouchPhase.Moved:
+                    if (isDragging)
+                    {
+                        touchPos += offset;
+                        touchPos.z = 0; // Ensure the IK controller stays in the 2D plane
+                        transform.position = touchPos;
+                    }
+                    break;
+            }
+        }
     }
 
     // Check if a position is within the movable area
