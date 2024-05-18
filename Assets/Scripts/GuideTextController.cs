@@ -1,19 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class GuideTextController : MonoBehaviour
 {
     public float targetTime;
+    private float targetTime1;
     private void OnEnable()
     {
-        targetTime = 1.0f;
+        targetTime1 = targetTime;
     }
     void Update()
     {
-        targetTime -= Time.deltaTime;
+        targetTime1 -= Time.deltaTime;
 
-        if (targetTime <= 0.0f)
+        if (targetTime1 <= 0.0f)
         {
             timerEnded();
         }
@@ -21,6 +23,6 @@ public class GuideTextController : MonoBehaviour
 
     void timerEnded()
     {
-        this.gameObject.SetActive(false);
+        this.gameObject.SetActive(!this.gameObject.activeSelf);
     }
 }
