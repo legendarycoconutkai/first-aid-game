@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -12,8 +13,11 @@ public class SceneChanger : MonoBehaviour
 
     [SerializeField] private TMP_Dropdown dropdown;
 
+    public int currentIndex;
+
     public void ActionToCall(int index)
     {
+        currentIndex = index;
         if (index == 0)
         {
             frontScene.SetActive(true);
@@ -37,5 +41,10 @@ public class SceneChanger : MonoBehaviour
             LeftSideScene.SetActive(false);
             RightSideScene.SetActive(true);
         }
+    }
+
+    public int getCurrentIndex()
+    {
+        return currentIndex;
     }
 }
