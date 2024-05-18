@@ -11,15 +11,16 @@ public class test : MonoBehaviour
     public PrimarySurveyController psc;
     public DoneButtonController dbc;
 
-    private bool[] isFirst = new bool[] { true, true, true, true, true, true };
-    private bool[] isFirst2 = new bool[] { true, true, true, true, true, true };
-    private bool isDone = false;
-    private bool end = false;
-    private float targetTime;
+    public bool[] isFirst = new bool[] { true, true, true, true, true, true };
+    public bool[] isFirst2 = new bool[] { true, true, true, true, true, true };
+    public bool isDone = false;
+    public bool end = false;
+    public float targetTime;
 
     void Start()
     {
         StartCoroutine(firstTime());
+        targetTime = 30.0f;
     }
 
     private IEnumerator firstTime()
@@ -131,13 +132,14 @@ public class test : MonoBehaviour
         
         if (!isFirst[0] && !isFirst[1] && !isFirst[2] && !isFirst[3] && !isFirst[4] && !isFirst[5] && isDone)
         {
-            targetTime = 15.0f;
+            
             targetTime -= Time.fixedDeltaTime;
 
             if (targetTime <= 0.0f)
             {
                 randomText();
                 Debug.Log("end");
+                targetTime = 30.0f;
             }
         }   
     }

@@ -71,6 +71,7 @@ public class TypewritterEffectTutorial : MonoBehaviour
             yield return new WaitForSeconds(0.05f); // Adjust the delay as needed
         }
         button.SetActive(true); // Enable the button after finishing
+        skipButtonObj.SetActive(false); // Hide the Skip button after finishing
     }
 
     // Button click handler for Next button
