@@ -56,6 +56,7 @@ public class LeaderboardController : MonoBehaviour
             totalScore = totalScore = sc.getScore() + psc.getBonusScore() + 333;
             addUserScore(totalScore, player);
             determineRanking();
+            rankingText = rankingText + 1;
             determineGrade();
         }
 
@@ -90,7 +91,8 @@ public class LeaderboardController : MonoBehaviour
     public void determineRanking()
     {
         int rankingText = nameList.IndexOf(player);
-        rankingText = rankingText + 1;
+        Debug.Log(nameList.IndexOf(player));
+        //rankingText = 2;
         //rankingText = numberList[index];
     }
 
