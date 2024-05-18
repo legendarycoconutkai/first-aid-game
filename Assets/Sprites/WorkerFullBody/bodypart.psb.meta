@@ -94,6 +94,27 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
+  - name: Mouth
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 218
+      y: 943
+      width: 35
+      height: 43
+    spriteID: 5673b8e04f9d243449f89ed93b6b37da
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 218, y: 943}
+    spritePosition: {x: 465, y: 813}
   - name: EyeClose copy
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -10264,10 +10285,10 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: 5673b8e04f9d243449f89ed93b6b37da
     layerID: 44
-    mosaicPosition: {x: 4, y: 969}
+    mosaicPosition: {x: 218, y: 943}
     flatten: 0
-    isImported: 0
-    isVisible: 0
+    isImported: 1
+    isVisible: 1
   - name: EyeClose copy
     spriteName: EyeClose copy
     isGroup: 0
