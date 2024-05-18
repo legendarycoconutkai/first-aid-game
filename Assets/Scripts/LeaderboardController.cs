@@ -43,19 +43,32 @@ public class LeaderboardController : MonoBehaviour
     private int totalScore;
     // Start is called before the first frame update
     void Start()
-
     {
-        player = StaticData.valueToKeep;
-        totalScore = totalScore = sc.getScore() + psc.getBonusScore() + 333;
-        numberList = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8 };
+       
+        //numberList = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8 };
         scoreList = new List<int> { 8000, 8500, 7000, 6000, 5000, 5500, 4000 };
         nameList = new List<string> { "NICHOLAS", "JENNIFER", "IKUN", "JOHN", "JETCHOO", "KENNY", "GWEN" };
 
         player = StaticData.valueToKeep;
 
-        addUserScore(totalScore, player);
-        determineRanking();
-        determineGrade();
+        if (player != null)
+        {
+            totalScore = totalScore = sc.getScore() + psc.getBonusScore() + 333;
+            addUserScore(totalScore, player);
+            determineRanking();
+            determineGrade();
+        }
+
+        int i = 1;
+        foreach (string name in nameList)
+        {
+            numberList.Add(i++);
+        }
+
+        PassDataToStartMenu.numberList = numberList;
+        PassDataToStartMenu.nameList = nameList;
+        PassDataToStartMenu.scoreList = scoreList;
+
 
         StartCoroutine(activatelbp());
     }
@@ -76,8 +89,9 @@ public class LeaderboardController : MonoBehaviour
 
     public void determineRanking()
     {
-        int index = nameList.IndexOf(player);
-        rankingText = numberList[index];
+        int rankingText = nameList.IndexOf(player);
+        rankingText = rankingText + 1;
+        //rankingText = numberList[index];
     }
 
     public void determineGrade()
@@ -116,7 +130,8 @@ public class LeaderboardController : MonoBehaviour
     }
     public List<int> getNumberList()
     {
-        return numberList;
+         
+         return numberList;
     }
     public List<string> getNameList()
     {
@@ -125,6 +140,7 @@ public class LeaderboardController : MonoBehaviour
 
     public List<int> getScoreList()
     {
+      
         return scoreList;
     }
 

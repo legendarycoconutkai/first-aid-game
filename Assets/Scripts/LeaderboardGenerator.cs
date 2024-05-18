@@ -14,11 +14,11 @@ public class LeaderboardGenerator : MonoBehaviour
 
     void Start()
     {
-
+        
         foreach (int number in lbc.getNumberList())
         {
             numberText.text += number + ".\n";
-       }
+        }
 
         foreach (string name in lbc.getNameList())
         {
