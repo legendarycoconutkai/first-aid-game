@@ -10,6 +10,7 @@ public class LoginController : MonoBehaviour
 {
     public TMP_InputField nameInputField;
     string playerName;
+    public LoadScene loadScene;
     public void confirmButtonClicked()
     {
         playerName = nameInputField.text.Trim();
@@ -18,7 +19,7 @@ public class LoginController : MonoBehaviour
         if (!string.IsNullOrEmpty(playerName)){
             LoadSceneAndKeepValue();
             Debug.Log("Player name entered: " + playerName);
-            SceneManager.LoadScene(1);
+            loadScene.checkIfError(2,1);
         }
         else
         {

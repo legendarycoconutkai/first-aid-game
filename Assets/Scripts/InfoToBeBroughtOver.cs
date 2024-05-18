@@ -11,6 +11,8 @@ public class InfoToBeBroughtOver : MonoBehaviour
     public Dictionary<string, bool> injuries;
     public Dictionary<string, bool> dangers;
 
+    public bool isChanged;
+
     private void Start()
     {
         injuries = new Dictionary<string, bool>
@@ -28,13 +30,17 @@ public class InfoToBeBroughtOver : MonoBehaviour
             { "box", false },
             { "scissors", false }
         };
+
+        isChanged = false;
     }
 
     public void updateInfo()
     {
+
         if (injuriesObj[0].GetComponent<Toggle>().isOn)
         {
             injuries["LeftArm"] = true;
+            isChanged = true;
         }
 
         if (injuriesObj[1].GetComponent<Toggle>().isOn)
@@ -45,16 +51,19 @@ public class InfoToBeBroughtOver : MonoBehaviour
         if (injuriesObj[2].GetComponent<Toggle>().isOn)
         {
             injuries["LeftLeg"] = true;
+            isChanged = true;
         }
 
         if (injuriesObj[3].GetComponent<Toggle>().isOn)
         {
             injuries["RightLeg"] = true;
+            isChanged = true;
         }
 
         if (injuriesObj[4].GetComponent<Toggle>().isOn)
         {
             injuries["Abdomen"] = true;
+            isChanged = true;
         }
 
         if (dangerObj[0].GetComponent<SpriteRenderer>().enabled)
@@ -92,4 +101,9 @@ public class InfoToBeBroughtOver : MonoBehaviour
     {
         return dangers;
     }
+
+    public bool getIsChanged()
+    {
+        return isChanged;
+    } 
 }

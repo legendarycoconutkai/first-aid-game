@@ -83,3 +83,6 @@ TagManager:
   - name: Black
     uniqueID: 3257116841
     locked: 0
+  - name: Full Screen Warning
+    uniqueID: 82110343
+    locked: 0
